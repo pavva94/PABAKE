@@ -6,158 +6,158 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://w3id.org/stlab/ke/pabake">
-    <Prefix name="" IRI="https://w3id.org/pabake"/>
+    <Prefix name="" IRI="https://w3id.org/stlab/ke/pabake"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#City"/>
+        <Class IRI="#City"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#Observation"/>
+        <Class IRI="#Observation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#Parameter"/>
+        <Class IRI="#Parameter"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#Period"/>
+        <Class IRI="#Period"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#PeriodUnit"/>
+        <Class IRI="#PeriodUnit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#Provider"/>
+        <Class IRI="#Provider"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#Sea"/>
+        <Class IRI="#Sea"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#Sensor"/>
+        <Class IRI="#Sensor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#SensorType"/>
+        <Class IRI="#SensorType"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <Class IRI="#Station"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <Class IRI="#StationModel"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#StationStructure"/>
+        <Class IRI="#StationStructure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#StationType"/>
+        <Class IRI="#StationType"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://w3id.org/pabake#UnitOfMeasure"/>
+        <Class IRI="#UnitOfMeasure"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasDir"/>
+        <ObjectProperty IRI="#hasDir"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasParameter"/>
+        <ObjectProperty IRI="#hasParameter"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasPeriod"/>
+        <ObjectProperty IRI="#hasPeriod"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasPeriodUnit"/>
+        <ObjectProperty IRI="#hasPeriodUnit"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasProvider"/>
+        <ObjectProperty IRI="#hasProvider"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasSensorType"/>
+        <ObjectProperty IRI="#hasSensorType"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasSensors"/>
+        <ObjectProperty IRI="#hasSensors"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStation"/>
+        <ObjectProperty IRI="#hasStation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStationModel"/>
+        <ObjectProperty IRI="#hasStationModel"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStationStructure"/>
+        <ObjectProperty IRI="#hasStationStructure"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStationType"/>
+        <ObjectProperty IRI="#hasStationType"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasTm"/>
+        <ObjectProperty IRI="#hasTm"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasTp"/>
+        <ObjectProperty IRI="#hasTp"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasUnitOfMeasure"/>
+        <ObjectProperty IRI="#hasUnitOfMeasure"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasUtc"/>
+        <ObjectProperty IRI="#hasUtc"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasWm0"/>
+        <ObjectProperty IRI="#hasWm0"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#isInCity"/>
+        <ObjectProperty IRI="#isInCity"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://w3id.org/pabake#isInSea"/>
+        <ObjectProperty IRI="#isInSea"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#atLatitude"/>
+        <DataProperty IRI="#atLatitude"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#atLongitude"/>
+        <DataProperty IRI="#atLongitude"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#atTime"/>
+        <DataProperty IRI="#atTime"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#begins"/>
+        <DataProperty IRI="#begins"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#diameter"/>
+        <DataProperty IRI="#diameter"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#ends"/>
+        <DataProperty IRI="#ends"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#hullType"/>
+        <DataProperty IRI="#hullType"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#imageUri"/>
+        <DataProperty IRI="#imageUri"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#isPrimary"/>
+        <DataProperty IRI="#isPrimary"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#manufacturer"/>
+        <DataProperty IRI="#manufacturer"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#mooringType"/>
+        <DataProperty IRI="#mooringType"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#pdfURI"/>
+        <DataProperty IRI="#pdfURI"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#positioningSystem"/>
+        <DataProperty IRI="#positioningSystem"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#sensorModel"/>
+        <DataProperty IRI="#sensorModel"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#stationNetwork"/>
+        <DataProperty IRI="#stationNetwork"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#status"/>
+        <DataProperty IRI="#status"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="https://w3id.org/pabake#wmoURI"/>
+        <DataProperty IRI="#wmoURI"/>
     </Declaration>
     <ClassAssertion>
         <DataSomeValuesFrom>
@@ -167,549 +167,549 @@
         <AnonymousIndividual nodeID="_:genid2147483648"/>
     </ClassAssertion>
     <SymmetricObjectProperty>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasPeriod"/>
+        <ObjectProperty IRI="#hasPeriod"/>
     </SymmetricObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasDir"/>
-        <Class IRI="https://w3id.org/pabake#Observation"/>
+        <ObjectProperty IRI="#hasDir"/>
+        <Class IRI="#Observation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasParameter"/>
-        <Class IRI="https://w3id.org/pabake#Observation"/>
+        <ObjectProperty IRI="#hasParameter"/>
+        <Class IRI="#Observation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasPeriod"/>
-        <Class IRI="https://w3id.org/pabake#Sensor"/>
+        <ObjectProperty IRI="#hasPeriod"/>
+        <Class IRI="#Sensor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasPeriodUnit"/>
-        <Class IRI="https://w3id.org/pabake#Period"/>
+        <ObjectProperty IRI="#hasPeriodUnit"/>
+        <Class IRI="#Period"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasProvider"/>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <ObjectProperty IRI="#hasProvider"/>
+        <Class IRI="#Station"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasSensorType"/>
-        <Class IRI="https://w3id.org/pabake#Sensor"/>
+        <ObjectProperty IRI="#hasSensorType"/>
+        <Class IRI="#Sensor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasSensors"/>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <ObjectProperty IRI="#hasSensors"/>
+        <Class IRI="#Station"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStation"/>
-        <Class IRI="https://w3id.org/pabake#Sensor"/>
+        <ObjectProperty IRI="#hasStation"/>
+        <Class IRI="#Sensor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStationModel"/>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <ObjectProperty IRI="#hasStationModel"/>
+        <Class IRI="#Station"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStationStructure"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <ObjectProperty IRI="#hasStationStructure"/>
+        <Class IRI="#StationModel"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStationType"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <ObjectProperty IRI="#hasStationType"/>
+        <Class IRI="#StationModel"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasTm"/>
-        <Class IRI="https://w3id.org/pabake#Observation"/>
+        <ObjectProperty IRI="#hasTm"/>
+        <Class IRI="#Observation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasTp"/>
-        <Class IRI="https://w3id.org/pabake#Observation"/>
+        <ObjectProperty IRI="#hasTp"/>
+        <Class IRI="#Observation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasUnitOfMeasure"/>
-        <Class IRI="https://w3id.org/pabake#Parameter"/>
+        <ObjectProperty IRI="#hasUnitOfMeasure"/>
+        <Class IRI="#Parameter"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasUtc"/>
-        <Class IRI="https://w3id.org/pabake#Observation"/>
+        <ObjectProperty IRI="#hasUtc"/>
+        <Class IRI="#Observation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasWm0"/>
-        <Class IRI="https://w3id.org/pabake#Sensor"/>
+        <ObjectProperty IRI="#hasWm0"/>
+        <Class IRI="#Sensor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#isInCity"/>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <ObjectProperty IRI="#isInCity"/>
+        <Class IRI="#Station"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://w3id.org/pabake#isInSea"/>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <ObjectProperty IRI="#isInSea"/>
+        <Class IRI="#Station"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasParameter"/>
-        <Class IRI="https://w3id.org/pabake#Parameter"/>
+        <ObjectProperty IRI="#hasParameter"/>
+        <Class IRI="#Parameter"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasPeriod"/>
-        <Class IRI="https://w3id.org/pabake#Period"/>
+        <ObjectProperty IRI="#hasPeriod"/>
+        <Class IRI="#Period"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasPeriodUnit"/>
-        <Class IRI="https://w3id.org/pabake#PeriodUnit"/>
+        <ObjectProperty IRI="#hasPeriodUnit"/>
+        <Class IRI="#PeriodUnit"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasProvider"/>
-        <Class IRI="https://w3id.org/pabake#Provider"/>
+        <ObjectProperty IRI="#hasProvider"/>
+        <Class IRI="#Provider"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasSensorType"/>
-        <Class IRI="https://w3id.org/pabake#SensorType"/>
+        <ObjectProperty IRI="#hasSensorType"/>
+        <Class IRI="#SensorType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasSensors"/>
-        <Class IRI="https://w3id.org/pabake#Sensor"/>
+        <ObjectProperty IRI="#hasSensors"/>
+        <Class IRI="#Sensor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStation"/>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <ObjectProperty IRI="#hasStation"/>
+        <Class IRI="#Station"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStationModel"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <ObjectProperty IRI="#hasStationModel"/>
+        <Class IRI="#StationModel"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStationStructure"/>
-        <Class IRI="https://w3id.org/pabake#StationStructure"/>
+        <ObjectProperty IRI="#hasStationStructure"/>
+        <Class IRI="#StationStructure"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasStationType"/>
-        <Class IRI="https://w3id.org/pabake#StationType"/>
+        <ObjectProperty IRI="#hasStationType"/>
+        <Class IRI="#StationType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#hasUnitOfMeasure"/>
-        <Class IRI="https://w3id.org/pabake#UnitOfMeasure"/>
+        <ObjectProperty IRI="#hasUnitOfMeasure"/>
+        <Class IRI="#UnitOfMeasure"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#isInCity"/>
-        <Class IRI="https://w3id.org/pabake#City"/>
+        <ObjectProperty IRI="#isInCity"/>
+        <Class IRI="#City"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://w3id.org/pabake#isInSea"/>
-        <Class IRI="https://w3id.org/pabake#Sea"/>
+        <ObjectProperty IRI="#isInSea"/>
+        <Class IRI="#Sea"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
-        <DataProperty IRI="https://w3id.org/pabake#positioningSystem"/>
+        <DataProperty IRI="#positioningSystem"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#atLatitude"/>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <DataProperty IRI="#atLatitude"/>
+        <Class IRI="#Station"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#atLongitude"/>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <DataProperty IRI="#atLongitude"/>
+        <Class IRI="#Station"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#atTime"/>
-        <Class IRI="https://w3id.org/pabake#Observation"/>
+        <DataProperty IRI="#atTime"/>
+        <Class IRI="#Observation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#begins"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <DataProperty IRI="#begins"/>
+        <Class IRI="#StationModel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#diameter"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <DataProperty IRI="#diameter"/>
+        <Class IRI="#StationModel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#ends"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <DataProperty IRI="#ends"/>
+        <Class IRI="#StationModel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#hullType"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <DataProperty IRI="#hullType"/>
+        <Class IRI="#StationModel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#imageUri"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <DataProperty IRI="#imageUri"/>
+        <Class IRI="#StationModel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#isPrimary"/>
-        <Class IRI="https://w3id.org/pabake#Sensor"/>
+        <DataProperty IRI="#isPrimary"/>
+        <Class IRI="#Sensor"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#manufacturer"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <DataProperty IRI="#manufacturer"/>
+        <Class IRI="#StationModel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#mooringType"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <DataProperty IRI="#mooringType"/>
+        <Class IRI="#StationModel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#pdfURI"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <DataProperty IRI="#pdfURI"/>
+        <Class IRI="#StationModel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#positioningSystem"/>
-        <Class IRI="https://w3id.org/pabake#StationModel"/>
+        <DataProperty IRI="#positioningSystem"/>
+        <Class IRI="#StationModel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#sensorModel"/>
-        <Class IRI="https://w3id.org/pabake#Sensor"/>
+        <DataProperty IRI="#sensorModel"/>
+        <Class IRI="#Sensor"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#stationNetwork"/>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <DataProperty IRI="#stationNetwork"/>
+        <Class IRI="#Station"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#status"/>
-        <Class IRI="https://w3id.org/pabake#Station"/>
+        <DataProperty IRI="#status"/>
+        <Class IRI="#Station"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#wmoURI"/>
-        <Class IRI="https://w3id.org/pabake#Sensor"/>
+        <DataProperty IRI="#wmoURI"/>
+        <Class IRI="#Sensor"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="https://w3id.org/pabake#wmoURI"/>
-        <Class IRI="https://w3id.org/pabake#UnitOfMeasure"/>
+        <DataProperty IRI="#wmoURI"/>
+        <Class IRI="#UnitOfMeasure"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#atLatitude"/>
+        <DataProperty IRI="#atLatitude"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#atLongitude"/>
+        <DataProperty IRI="#atLongitude"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#atTime"/>
+        <DataProperty IRI="#atTime"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#begins"/>
+        <DataProperty IRI="#begins"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#diameter"/>
+        <DataProperty IRI="#diameter"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#ends"/>
+        <DataProperty IRI="#ends"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#hullType"/>
+        <DataProperty IRI="#hullType"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#imageUri"/>
+        <DataProperty IRI="#imageUri"/>
         <Datatype abbreviatedIRI="xsd:anyURI"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#isPrimary"/>
+        <DataProperty IRI="#isPrimary"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#manufacturer"/>
+        <DataProperty IRI="#manufacturer"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#mooringType"/>
+        <DataProperty IRI="#mooringType"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#pdfURI"/>
+        <DataProperty IRI="#pdfURI"/>
         <Datatype abbreviatedIRI="xsd:anyURI"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#positioningSystem"/>
+        <DataProperty IRI="#positioningSystem"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#sensorModel"/>
+        <DataProperty IRI="#sensorModel"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#stationNetwork"/>
+        <DataProperty IRI="#stationNetwork"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#status"/>
+        <DataProperty IRI="#status"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="https://w3id.org/pabake#wmoURI"/>
+        <DataProperty IRI="#wmoURI"/>
         <Datatype abbreviatedIRI="xsd:anyURI"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#City</IRI>
+        <IRI>#City</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#City</IRI>
+        <IRI>#City</IRI>
         <Literal xml:lang="it">Città</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#Observation</IRI>
+        <IRI>#Observation</IRI>
         <Literal xml:lang="it">Osservazione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#Parameter</IRI>
+        <IRI>#Parameter</IRI>
         <Literal xml:lang="it">Parametro</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#Period</IRI>
+        <IRI>#Period</IRI>
         <Literal xml:lang="it">Periodo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#PeriodUnit</IRI>
+        <IRI>#PeriodUnit</IRI>
         <Literal xml:lang="it">Unità di Periodo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#Provider</IRI>
+        <IRI>#Provider</IRI>
         <Literal xml:lang="it">Fornitore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#Provider</IRI>
+        <IRI>#Provider</IRI>
         <Literal xml:lang="en">Provider</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#Sea</IRI>
+        <IRI>#Sea</IRI>
         <Literal xml:lang="it">Mare</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#Sea</IRI>
+        <IRI>#Sea</IRI>
         <Literal xml:lang="en">Sea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#Sensor</IRI>
+        <IRI>#Sensor</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Sensore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#Sensor</IRI>
+        <IRI>#Sensor</IRI>
         <Literal xml:lang="it">Sensore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#SensorType</IRI>
+        <IRI>#SensorType</IRI>
         <Literal xml:lang="en">Sensor Type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#SensorType</IRI>
+        <IRI>#SensorType</IRI>
         <Literal xml:lang="it">Tipo di Sensore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#Station</IRI>
+        <IRI>#Station</IRI>
         <Literal xml:lang="it">Stazione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#StationModel</IRI>
+        <IRI>#StationModel</IRI>
         <Literal xml:lang="it">Modello della Stazione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#StationStructure</IRI>
+        <IRI>#StationStructure</IRI>
         <Literal xml:lang="en">Station Structure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#StationStructure</IRI>
+        <IRI>#StationStructure</IRI>
         <Literal xml:lang="it">Struttura della Stazione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#StationType</IRI>
+        <IRI>#StationType</IRI>
         <Literal xml:lang="en">Station Type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#StationType</IRI>
+        <IRI>#StationType</IRI>
         <Literal xml:lang="it">Tipo di Stazione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#UnitOfMeasure</IRI>
+        <IRI>#UnitOfMeasure</IRI>
         <Literal xml:lang="en">Unit of Measure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://w3id.org/pabake#UnitOfMeasure</IRI>
+        <IRI>#UnitOfMeasure</IRI>
         <Literal xml:lang="it">Unità di Misura</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#atLatitude</IRI>
+        <IRI>#atLatitude</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Latitude in which a station is located</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#atLongitude</IRI>
+        <IRI>#atLongitude</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Longitude at which a station is located</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#atTime</IRI>
+        <IRI>#atTime</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Time a measurement is registered</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#begins</IRI>
+        <IRI>#begins</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Start of activity of a station model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#diameter</IRI>
+        <IRI>#diameter</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Diameter of the station model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#ends</IRI>
+        <IRI>#ends</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">End time of activity of a station model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasDir</IRI>
+        <IRI>#hasDir</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between an observation and its direction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasParameter</IRI>
+        <IRI>#hasParameter</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between an observation and its parameters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasPeriod</IRI>
+        <IRI>#hasPeriod</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a sensor and its period of measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasPeriodUnit</IRI>
+        <IRI>#hasPeriodUnit</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Unit of the period of the selected measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasProvider</IRI>
+        <IRI>#hasProvider</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a station and its provider</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasSensorType</IRI>
+        <IRI>#hasSensorType</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a sensor and its type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasSensors</IRI>
+        <IRI>#hasSensors</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a station and the sensors that it contains</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasStation</IRI>
+        <IRI>#hasStation</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a sensor and the station that hosts it</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasStationModel</IRI>
+        <IRI>#hasStationModel</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a stationand its model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasStationStructure</IRI>
+        <IRI>#hasStationStructure</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a station and its structure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasStationType</IRI>
+        <IRI>#hasStationType</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a station and its type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasTm</IRI>
+        <IRI>#hasTm</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between an observation and its Tm measure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasTp</IRI>
+        <IRI>#hasTp</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">relationship between an observation and its tp measure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasUnitOfMeasure</IRI>
+        <IRI>#hasUnitOfMeasure</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a measure and its unit of measure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasUtc</IRI>
+        <IRI>#hasUtc</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between an observation and its Utc</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#hasWm0</IRI>
+        <IRI>#hasWm0</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a sensor and its Wm0 code</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#imageUri</IRI>
+        <IRI>#imageUri</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">URI with picture of the station model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#isInCity</IRI>
+        <IRI>#isInCity</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between the city and the sea in which the city is</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#isInSea</IRI>
+        <IRI>#isInSea</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Represents the relation between a station and the sea that contains it</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#isPrimary</IRI>
+        <IRI>#isPrimary</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Indicates if the sensor is primary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#manufacturer</IRI>
+        <IRI>#manufacturer</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Producer of the station model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#pdfURI</IRI>
+        <IRI>#pdfURI</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">URI of the pdf of the station model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#positioningSystem</IRI>
+        <IRI>#positioningSystem</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Positioning system relative to a determined station model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#sensorModel</IRI>
+        <IRI>#sensorModel</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Model of the sensor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#stationNetwork</IRI>
+        <IRI>#stationNetwork</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Network containing the station</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#status</IRI>
+        <IRI>#status</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Indicates if the station is active or not</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://w3id.org/pabake#wmoURI</IRI>
+        <IRI>#wmoURI</IRI>
         <Literal>Wm0 Uri</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
