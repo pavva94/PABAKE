@@ -1,0 +1,13 @@
+@prefix ns1: <https://w3id.org/stlab/ke/pabake/ld/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/101010_2006_02_14_09:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2006-02-14 09:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100210_2_WaveGauge> ;
+    ns1:value "0.84"^^xsd:float .
+

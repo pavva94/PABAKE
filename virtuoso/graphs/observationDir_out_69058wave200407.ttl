@@ -1,0 +1,321 @@
+@prefix ns1: <https://w3id.org/stlab/ke/pabake/ld/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_15:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 15:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "284.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_16:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 16:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "26.3"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_16:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 16:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "46.2"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_17:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 17:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "71.3"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_17:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 17:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "66.9"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_18:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 18:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "42.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_18:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 18:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "31.3"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_19:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 19:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "45.5"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_19:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 19:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "41.0"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_20:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 20:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "47.2"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_20:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 20:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "43.2"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_21:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 21:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "29.9"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_21:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 21:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "16.9"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_22:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 22:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "24.0"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_22:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 22:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "23.1"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_30_23:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-30 23:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "33.6"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_00:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 00:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "16.2"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_00:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 00:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "7.7"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_02:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 02:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "316.5"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_02:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 02:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "316.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_03:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 03:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "306.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_03:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 03:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "306.9"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_05:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 05:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "295.3"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_06:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 06:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "306.4"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_10:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 10:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "8.9"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_10:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 10:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "14.0"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_11:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 11:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "3.3"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_12:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 12:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "11.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_13:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 13:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "15.9"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_13:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 13:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "5.9"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_14:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 14:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "28.6"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_14:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 14:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "4.4"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_15:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 15:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "1.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_15:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 15:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "3.7"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_16:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 16:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "8.7"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_17:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 17:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "8.0"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_17:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 17:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "13.0"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_18:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 18:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "8.2"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_19:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 19:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "3.0"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_20:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 20:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "8.1"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_20:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 20:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "6.7"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_21:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 21:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "359.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_22:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 22:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "358.3"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_22:30:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 22:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "347.0"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/69058_2004_07_31_23:00:00_dir> a ns1:Observation ;
+    ns1:atTime "2004-07-31 23:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/dir> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_2_WaveGauge> ;
+    ns1:value "339.4"^^xsd:float .
+

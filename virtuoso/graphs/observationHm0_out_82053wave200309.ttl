@@ -1,0 +1,832 @@
+@prefix ns1: <https://w3id.org/stlab/ke/pabake/ld/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_00:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 00:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.65"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_00:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 00:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.61"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_01:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 01:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.64"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_01:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 01:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.65"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_02:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 02:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.68"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_02:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 02:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.7"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_03:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 03:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.76"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_03:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 03:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.71"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_04:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 04:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.71"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_04:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 04:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.73"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_05:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 05:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.69"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_05:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 05:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.66"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_06:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 06:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.72"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_06:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 06:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.66"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_07:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 07:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.61"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_07:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 07:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.6"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_08:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 08:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.58"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_08:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 08:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.59"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_09:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 09:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.56"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_09:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 09:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.58"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_10:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 10:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.61"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_10:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 10:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.69"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_11:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 11:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.72"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_11:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 11:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.68"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_12:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 12:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.68"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_12:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 12:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.68"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_13:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 13:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.68"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_13:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 13:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.65"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_14:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 14:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.69"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_14:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 14:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.7"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_15:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 15:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.68"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_15:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 15:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.68"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_16:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 16:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.66"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_16:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 16:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.68"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_17:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 17:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.83"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_17:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 17:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_18:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 18:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.82"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_18:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 18:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_19:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 19:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.84"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_19:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 19:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.79"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_20:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 20:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.77"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_20:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 20:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_21:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 21:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.76"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_21:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 21:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.79"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_22:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 22:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.75"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_22:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 22:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.67"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_23:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 23:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.71"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_01_23:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-01 23:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.74"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_00:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 00:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.78"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_00:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 00:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.72"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_01:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 01:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.75"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_01:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 01:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.83"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_02:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 02:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.88"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_02:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 02:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.85"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_03:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 03:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.83"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_03:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 03:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.84"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_04:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 04:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.81"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_04:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 04:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.7"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_05:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 05:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.72"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_05:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 05:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.69"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_06:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 06:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.72"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_06:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 06:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.67"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_07:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 07:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.69"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_07:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 07:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.69"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_08:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 08:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.66"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_08:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 08:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.63"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_09:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 09:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.6"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_09:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 09:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.63"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_10:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 10:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.51"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_10:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 10:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.55"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_11:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 11:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.52"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_11:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 11:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.51"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_12:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 12:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.49"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_12:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 12:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.5"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_13:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 13:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.66"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_13:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 13:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.78"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_14:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 14:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.72"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_14:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 14:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.74"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_15:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 15:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.73"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_15:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 15:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.72"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_16:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 16:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.71"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_16:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 16:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.68"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_17:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 17:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.72"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_17:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 17:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.72"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_18:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 18:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.72"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_18:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 18:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.69"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_19:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 19:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.7"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_19:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 19:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.85"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_20:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 20:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.81"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_20:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 20:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.85"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_21:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 21:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_21:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 21:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.83"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_22:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 22:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.84"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_22:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 22:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_23:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 23:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.82"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_02_23:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-02 23:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_00:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 00:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.75"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_00:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 00:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.78"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_01:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 01:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.75"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_01:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 01:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_02:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 02:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.87"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_02:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 02:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_03:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 03:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.8"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_03:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 03:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.78"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_04:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 04:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.79"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_04:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 04:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.77"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_05:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 05:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.73"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_05:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 05:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.77"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_06:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 06:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.75"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_06:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 06:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.77"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_07:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 07:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.75"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_07:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 07:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.67"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_08:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 08:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.62"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_08:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 08:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.59"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_09:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 09:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.58"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_09:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 09:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.58"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_10:00:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 10:00:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.57"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/82053_2003_09_03_10:30:00_hm0> a ns1:Observation ;
+    ns1:atTime "2003-09-03 10:30:00"^^xsd:datetime ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/parameter/Hm0> ;
+    ns1:hasUnitOfMeasure <https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_2_WaveGauge> ;
+    ns1:value "0.56"^^xsd:float .
+

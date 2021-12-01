@@ -1,0 +1,25 @@
+version: '3'
+services:
+
+  virtuoso:
+    build: 
+      context: ./virtuoso
+    environment:
+      SPARQL_UPDATE: "true"
+    volumes:
+      - ./virtuoso/graphs:/graphs
+      - ./virtuoso/db:/usr/local/virtuoso-opensource/var/lib/virtuoso/db
+    ports:
+      - "8891:8890"
+  lodview:
+    build: ./lodview
+    ports:
+      - "8181:8080"
+    restart: always
+  lode:
+    build: ./lode
+    ports:
+      - "9090:8080"
+    restart: always
+
+    
