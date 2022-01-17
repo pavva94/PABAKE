@@ -55,9 +55,6 @@
         <Class IRI="#UnitOfMeasure"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasDir"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasParameter"/>
     </Declaration>
     <Declaration>
@@ -88,25 +85,16 @@
         <ObjectProperty IRI="#hasStationType"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTm"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTp"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasUnitOfMeasure"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasUtc"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasWm0"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isInCity"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isInSea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMadeBy"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#atLatitude"/>
@@ -125,6 +113,18 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ends"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDir"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHm0"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTp"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hullType"/>
@@ -166,13 +166,21 @@
         </DataSomeValuesFrom>
         <AnonymousIndividual nodeID="_:genid2147483648"/>
     </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPeriod"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStationStructure"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInCity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
     <SymmetricObjectProperty>
         <ObjectProperty IRI="#hasPeriod"/>
     </SymmetricObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasDir"/>
-        <Class IRI="#Observation"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasParameter"/>
         <Class IRI="#Observation"/>
@@ -214,24 +222,8 @@
         <Class IRI="#StationModel"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTm"/>
-        <Class IRI="#Observation"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTp"/>
-        <Class IRI="#Observation"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasUnitOfMeasure"/>
         <Class IRI="#Parameter"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasUtc"/>
-        <Class IRI="#Observation"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasWm0"/>
-        <Class IRI="#Sensor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isInCity"/>
@@ -240,6 +232,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isInSea"/>
         <Class IRI="#Station"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMadeBy"/>
+        <Class IRI="#Observation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasParameter"/>
@@ -293,6 +289,22 @@
         <ObjectProperty IRI="#isInSea"/>
         <Class IRI="#Sea"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMadeBy"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#diameter"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#imageUri"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#manufacturer"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#positioningSystem"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
@@ -320,6 +332,22 @@
     <DataPropertyDomain>
         <DataProperty IRI="#ends"/>
         <Class IRI="#StationModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDir"/>
+        <Class IRI="#Observation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHm0"/>
+        <Class IRI="#Observation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTm"/>
+        <Class IRI="#Observation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTp"/>
+        <Class IRI="#Observation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hullType"/>
@@ -363,11 +391,11 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#wmoURI"/>
-        <Class IRI="#Sensor"/>
+        <Class IRI="#Parameter"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#wmoURI"/>
-        <Class IRI="#UnitOfMeasure"/>
+        <Class IRI="#Sensor"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#atLatitude"/>
@@ -392,6 +420,22 @@
     <DataPropertyRange>
         <DataProperty IRI="#ends"/>
         <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDir"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasHm0"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTm"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTp"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hullType"/>
@@ -440,7 +484,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#City</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+        <Literal xml:lang="en">City as geogaphic location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -449,8 +493,33 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="en">City</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="en">Observation of an event of interest, which implies some parameters with measurable value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="en">Observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Observation</IRI>
         <Literal xml:lang="it">Osservazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parameter</IRI>
+        <Literal xml:lang="en">Parameter part of a measured observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Parameter</IRI>
+        <Literal xml:lang="en">Parameter</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -460,12 +529,27 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Period</IRI>
+        <Literal xml:lang="en">Period</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Period</IRI>
         <Literal xml:lang="it">Periodo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#PeriodUnit</IRI>
-        <Literal xml:lang="it">Unità di Periodo</Literal>
+        <Literal xml:lang="en">Period Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PeriodUnit</IRI>
+        <Literal xml:lang="it">Unità di periodo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Provider</IRI>
+        <Literal xml:lang="en">Provider as manufacturer or producer of an item</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -476,6 +560,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Provider</IRI>
         <Literal xml:lang="en">Provider</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sea</IRI>
+        <Literal xml:lang="en">Sea as geographic location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -495,6 +584,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Sensor</IRI>
+        <Literal xml:lang="en">Sensor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sensor</IRI>
         <Literal xml:lang="it">Sensore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -505,7 +599,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SensorType</IRI>
-        <Literal xml:lang="it">Tipo di Sensore</Literal>
+        <Literal xml:lang="it">Tipo di sensore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Station</IRI>
+        <Literal xml:lang="en">Station</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -513,9 +612,19 @@
         <Literal xml:lang="it">Stazione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StationModel</IRI>
+        <Literal xml:lang="en">Model typology of a given station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#StationModel</IRI>
-        <Literal xml:lang="it">Modello della Stazione</Literal>
+        <Literal xml:lang="it">Modello di stazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StationModel</IRI>
+        <Literal xml:lang="en">Station Model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -525,7 +634,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#StationStructure</IRI>
-        <Literal xml:lang="it">Struttura della Stazione</Literal>
+        <Literal xml:lang="it">Struttura della stazione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -535,7 +644,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#StationType</IRI>
-        <Literal xml:lang="it">Tipo di Stazione</Literal>
+        <Literal xml:lang="it">Tipo di stazione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -545,7 +654,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UnitOfMeasure</IRI>
-        <Literal xml:lang="it">Unità di Misura</Literal>
+        <Literal xml:lang="it">Unità di misura</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -579,8 +688,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasDir</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between an observation and its direction</Literal>
+        <IRI>#hasHm0</IRI>
+        <Literal xml:lang="en">Hm0 measured value of an observation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -635,27 +744,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#hasTm</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between an observation and its Tm measure</Literal>
+        <Literal xml:lang="en">Tm measured value of an observation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#hasTp</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">relationship between an observation and its tp measure</Literal>
+        <Literal xml:lang="en">Tp measured value of an observation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#hasUnitOfMeasure</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a measure and its unit of measure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasUtc</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between an observation and its Utc</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#hasWm0</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a sensor and its Wm0 code</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -671,6 +770,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#isInSea</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Represents the relation between a station and the sea that contains it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isMadeBy</IRI>
+        <Literal xml:lang="en">Representing the relationship between a single observation and the sensor that performed the measure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -710,7 +814,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#wmoURI</IRI>
-        <Literal>Wm0 Uri</Literal>
+        <Literal xml:lang="en">Wmo URI referred to the selected instance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
