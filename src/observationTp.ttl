@@ -1,0 +1,90 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix crml: <http://w3id.org/stlab/crml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix places: <https://dati.isprambiente.it/ontology/places/> .
+@prefix core: <https://dati.isprambiente.it/ontology/core/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix pabake: <https://w3id.org/stlab/ke/pabake#> .
+
+
+<#ObservationCSV>
+    rml:source "{{DATA}}";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+<#ObservationValue>
+  rml:logicalSource <#ObservationCSV>;
+
+  rr:subjectMap [
+    rr:template "https://w3id.org/stlab/ke/pabake/ld/observation_value/%eval:digest('{Tp}')%";
+    rr:class pabake:ObservationValue
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:hasDataValue;
+      rr:objectMap [
+          rml:reference "Tp";
+          rr:datatype xsd:double
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate pabake:hasUnitOfMeasure;
+    rr:objectMap [
+          rr:template  "https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/{UNIT_OF_MEASURE}";
+          rr:termType rr:IRI
+    ]
+  ].
+
+<#Observation>
+  rml:logicalSource <#ObservationCSV>;
+
+  rr:subjectMap [
+    rr:template "https://w3id.org/stlab/ke/pabake/ld/observation/{{CODE_PLACE}}_{UTC}_tp";
+    rr:class pabake:Observation
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:hasObservationValue;
+      rr:objectMap [
+        rr:template "https://w3id.org/stlab/ke/pabake/ld/observation_value/%eval:digest({Tp})%";
+        rr:termType rr:IRI
+    ]
+  ];
+
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:atTime;
+      rr:objectMap [
+      rr:template "https://w3id.org/stlab/ke/pabake/ld/time_instant/{UTC}";
+      rr:termType rr:IRI
+      ]
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:isMadeBy;
+      rr:objectMap [
+          rr:constant "https://w3id.org/stlab/ke/pabake/ld/sensor/{{STAT_CODE}}_{{NETWORK}}_{{TYPE}}";
+          rr:termType rr:IRI
+      ]
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:hasFeatureOfInterest;
+      rr:objectMap [
+          rr:template "https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_{{CODE_PLACE}}";
+          rr:termType rr:IRI
+      ]
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:hasParameter;
+      rr:objectMap [
+          rr:constant "https://w3id.org/stlab/ke/pabake/ld/observation_parameter/tp";
+          rr:termType rr:IRI
+      ]
+  ].

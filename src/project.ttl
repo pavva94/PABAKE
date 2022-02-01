@@ -1,0 +1,700 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix crml: <http://w3id.org/stlab/crml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix places: <https://dati.isprambiente.it/ontology/places/> .
+@prefix core: <https://dati.isprambiente.it/ontology/core/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix pabake: <https://w3id.org/stlab/ke/pabake#> .
+
+<#ManufacturerCSV>
+    rml:source "data/station_models.csv";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+<#SensorTypeCSV>
+    rml:source "data/sensor_narrower_types.csv";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+<#SeaCSV>
+    rml:source "data/seas.csv";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+<#StationCSV>
+    rml:source "data/stations.csv";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+<#WMOClassificationCSV>
+    rml:source "data/station_types_wmo_classification.csv";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+<#SensorCSV>
+    rml:source "data/sensors.csv";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+<#StationTypeCSV>
+    rml:source "data/station_types.csv";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+<#ObservationCSV>
+    rml:source "obs/observations.csv";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+<#ProviderCSV>
+    rml:source "data/providers.csv";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+
+<#ObservationSchemataCSV>
+    rml:source "obs/observation_schemata.csv";
+    rml:referenceFormulation ql:CSV;
+  	crml:separator ";".
+
+<#StationModel>
+    rml:logicalSource <#ManufacturerCSV>;
+
+    rr:subjectMap [
+  		rr:template "https://w3id.org/stlab/ke/pabake/ld/station_model/{MODEL}";
+      rr:class pabake:StationModel
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "MODEL_NAME";
+            rr:language "en"
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:hullType;
+        rr:objectMap [
+            rml:reference "HULL_TYPE";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:diameter;
+        rr:objectMap [
+            rml:reference "DIAMETER";
+            rr:datatype xsd:float
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:pdfURI;
+        rr:objectMap [
+            rml:reference "PDF";
+            rr:datatype xsd:anyURI
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:imageURI;
+        rr:objectMap [
+            rml:reference "IMAGE";
+            rr:datatype xsd:anyURI
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:manufacturer;
+        rr:objectMap [
+            rml:reference "MANUFACTURER";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate pabake:hasStationStructure;
+      rr:objectMap [
+          rr:parentTriplesMap <#StationStructure>;
+          rr:joinCondition [
+              rr:child "STRUCTURE_EN";
+              rr:parent "STRUCTURE_EN"
+          ]
+      ];
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate pabake:mooringType;
+      rr:objectMap [
+          rml:reference "MOORING_TYPE";
+          rr:datatype xsd:string
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate pabake:hasPositioningSystem;
+      rr:objectMap [
+          rr:parentTriplesMap <#PositioningSystem>;
+          rr:joinCondition [
+              rr:child "POSITIONING_SYSTEM";
+              rr:parent "POSITIONING_SYSTEM"
+          ]
+      ];
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate pabake:hasStationType;
+      rr:objectMap [
+          rr:parentTriplesMap <#StationType>;
+          rr:joinCondition [
+              rr:child "TYPE_EN";
+              rr:parent "TYPE_EN"
+          ]
+      ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:beginsAtYear;
+        rr:objectMap [
+            rml:reference "BEGINNING";
+            rr:datatype xsd:int
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:endsAtYear;
+        rr:objectMap [
+            rml:reference "END";
+            rr:datatype xsd:int
+        ]
+    ].
+
+<#PositioningSystem>
+    rml:logicalSource <#ManufacturerCSV>;
+
+    rr:subjectMap [
+  		rr:template "https://w3id.org/stlab/ke/pabake/ld/positioning_system/{POSITIONING_SYSTEM}";
+      rr:class pabake:PositioningSystem
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "POSITIONING_SYSTEM";
+            rr:language "en"
+        ]
+    ].
+
+<#Provider>
+    rml:logicalSource <#ProviderCSV>;
+
+    rr:subjectMap [
+      rr:template "https://w3id.org/stlab/ke/pabake/ld/provider/{ID}";
+      rr:class pabake:Provider
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:reference "DESC_IT";
+        rr:language "it"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:reference "DESC_EN";
+        rr:language "en"
+      ]
+    ].
+
+<#StationType>
+    rml:logicalSource <#ManufacturerCSV>;
+
+    rr:subjectMap [
+      rr:template "https://w3id.org/stlab/ke/pabake/ld/station_type/{TYPE_EN}";
+      rr:class pabake:StationType
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:reference "TYPE_IT";
+        rr:language "it"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:reference "TYPE_EN";
+        rr:language "en"
+      ]
+    ].
+
+
+<#StationStructure>
+    rml:logicalSource <#ManufacturerCSV>;
+
+    rr:subjectMap [
+      rr:template "https://w3id.org/stlab/ke/pabake/ld/station_structure/{STRUCTURE_EN}";
+      rr:class pabake:StationStructure
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:reference "STRUCTURE_IT";
+        rr:language "it"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:reference "STRUCTURE_EN";
+        rr:language "en"
+      ]
+    ].
+
+
+<#City>
+    rml:logicalSource <#StationCSV>;
+
+    rr:subjectMap [
+      rr:template "https://w3id.org/stlab/ke/pabake/ld/city/{CODE_PLACE}";
+      rr:class pabake:City
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "PLACE_NAME";
+            rr:language "it"
+        ]
+    ].
+
+<#TimePeriod>
+    rml:logicalSource <#SensorCSV>;
+
+    rr:subjectMap [
+      rr:template "https://w3id.org/stlab/ke/pabake/ld/time_period/{PERIOD}_{PERIOD_UNIT}";
+      rr:class pabake:TimePeriod
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:timePeriodValue;
+        rr:objectMap [
+            rml:reference "PERIOD";
+            rr:datatype xsd:float
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:hasTimePeriodMeasurementUnit;
+        rr:objectMap [
+            rr:parentTriplesMap <#TimePeriodMeasurementUnit>;
+        ]
+    ].
+
+<#TimePeriodMeasurementUnit>
+    rml:logicalSource <#SensorCSV>;
+
+    rr:subjectMap [
+      rr:template "https://w3id.org/stlab/ke/pabake/ld/time_period_measurement_unit/{PERIOD_UNIT}";
+      rr:class pabake:TimePeriodMeasurementUnit
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+            rml:reference "PERIOD_UNIT_LABEL";
+            rr:language 'en'
+        ]
+    ].
+
+<#Station>
+  rml:logicalSource <#StationCSV>;
+
+  rr:subjectMap [
+    rr:template 'https://w3id.org/stlab/ke/pabake/ld/station/{STAT_MODEL}_{STAT_CODE}';
+    rr:class pabake:Station
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:isInProximityOf;
+      rr:objectMap [
+          rr:template "https://w3id.org/stlab/ke/pabake/ld/city/{CODE_PLACE}";
+          rr:termType rr:IRI
+      ]
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:hasProvider;
+      rr:objectMap [
+          rr:template "https://w3id.org/stlab/ke/pabake/ld/provider/wmo";
+          rr:termType rr:IRI
+      ]
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:stationNetwork;
+      rr:objectMap [
+        rml:reference "NETWORK";
+        rr:datatype xsd:int
+      ]
+  ];
+
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:status;
+      rr:objectMap [
+        rml:reference "STAT_STATUS";
+        rr:datatype xsd:string
+      ]
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:hasStationModel;
+      rr:objectMap [
+          rr:parentTriplesMap <#StationModel>;
+          rr:joinCondition [
+              rr:child "STAT_MODEL";
+              rr:parent "MODEL"
+          ]
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate pabake:isAtGeometry;
+    rr:objectMap [
+      rr:template "https://w3id.org/stlab/ke/pabake/geometry/{LAT}_{LONG}";
+      rr:termType rr:IRI
+      ]
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:isInSea;
+      rr:objectMap [
+          rr:parentTriplesMap <#Sea>;
+          rr:joinCondition [
+              rr:child "SEA_IT";
+              rr:parent "IT"
+      ]
+    ]
+  ].
+
+
+
+
+<#FeatureOfInterestTm>
+  rml:logicalSource <#StationCSV>;
+
+  rr:subjectMap [
+		rr:template "https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_{CODE_PLACE}";
+    rr:class pabake:FeatureOfInterest
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:isInProximityOf;
+      rr:objectMap [
+          rr:template "https://w3id.org/stlab/ke/pabake/ld/geometry/{LAT}_{LONG}";
+          rr:termType rr:IRI
+      ]
+  ].
+
+<#FeatureOfInterestTp>
+  rml:logicalSource <#StationCSV>;
+
+  rr:subjectMap [
+		rr:template "https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_{CODE_PLACE}";
+    rr:class pabake:FeatureOfInterest
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:isInProximityOf;
+      rr:objectMap [
+          rr:template "https://w3id.org/stlab/ke/pabake/ld/geometry/{LAT}_{LONG}";
+          rr:termType rr:IRI
+      ]
+  ].
+
+<#FeatureOfInterestDir>
+  rml:logicalSource <#StationCSV>;
+
+  rr:subjectMap [
+		rr:template "https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_{CODE_PLACE}";
+    rr:class pabake:FeatureOfInterest
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:isInProximityOf;
+      rr:objectMap [
+          rr:template "https://w3id.org/stlab/ke/pabake/ld/geometry/{LAT}_{LONG}";
+          rr:termType rr:IRI
+      ]
+  ].
+
+<#FeatureOfInterestHm>
+  rml:logicalSource <#StationCSV>;
+
+  rr:subjectMap [
+		rr:template "https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_{CODE_PLACE}";
+    rr:class pabake:FeatureOfInterest
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:isInProximityOf;
+      rr:objectMap [
+          rr:template "https://w3id.org/stlab/ke/pabake/ld/geometry/{LAT}_{LONG}";
+          rr:termType rr:IRI
+      ]
+  ].
+
+
+<#Geometry>
+  rml:logicalSource <#StationCSV>;
+
+  rr:subjectMap [
+		rr:template "https://w3id.org/stlab/ke/pabake/ld/geometry/{LAT}_{LONG}";
+    rr:class pabake:Geometry
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:atLatitude;
+      rr:objectMap [
+        rml:reference "LAT";
+        rr:datatype xsd:float
+      ]
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate pabake:atLongitude;
+      rr:objectMap [
+        rml:reference "LONG";
+        rr:datatype xsd:float
+      ]
+  ].
+
+
+<#Sea>
+    rml:logicalSource <#SeaCSV>;
+
+    rr:subjectMap [
+  		rr:template "https://w3id.org/stlab/ke/pabake/ld/sea/{EN}";
+      rr:class pabake:Sea
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:hasURL;
+        rr:objectMap [
+          rml:reference "{GEONAMES}";
+          rr:datatype xsd:anyURI
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+          rml:reference "EN";
+          rr:language "en"
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+          rml:reference "IT";
+          rr:language "it"
+        ]
+    ].
+
+
+<#SensorType>
+    rml:logicalSource <#SensorTypeCSV>;
+
+    rr:subjectMap [
+  		rr:template "https://w3id.org/stlab/ke/pabake/ld/sensor_type/{TYPE}";
+      rr:class pabake:SensorType
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+          rml:reference "SENS_TYPE_EN";
+          rr:language "en"
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+          rml:reference "SENS_TYPE_IT";
+          rr:language "it"
+        ]
+    ].
+
+<#SensorModel>
+    rml:logicalSource <#SensorCSV>;
+
+    rr:subjectMap [
+  		rr:template "https://w3id.org/stlab/ke/pabake/ld/sensor_model/{SENSOR_MODEL}";
+      rr:class pabake:SensorModel
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:hasValue;
+        rr:objectMap [
+          rml:reference "SENSOR_MODEL";
+          rr:datatype xsd:string
+        ]
+    ].
+
+<#SensorLevel>
+    rml:logicalSource <#SensorCSV>;
+
+    rr:subjectMap [
+  		rr:template "https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary";
+      rr:class pabake:SensorLevel
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:constant "primary";
+        rr:language "en"
+      ]
+    ].
+
+<#Sensor>
+    rml:logicalSource <#SensorCSV>;
+
+    rr:subjectMap [
+  		rr:template "https://w3id.org/stlab/ke/pabake/ld/sensor/{STAT_CODE}_{NETWORK}_{TYPE}";
+      rr:class pabake:Sensor
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:hasSensorType;
+        rr:objectMap [
+          rr:parentTriplesMap <#SensorType>;
+          rr:objectMap [
+              rr:template "https://w3id.org/stlab/ke/pabake/ld/sensor_type/{SENS_TYPE}";
+              rr:termType rr:IRI
+          ]
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:hasPeriod;
+        rr:objectMap [
+            rr:template "https://w3id.org/stlab/ke/pabake/ld/time_period/{PERIOD}_h";
+            rr:termType rr:IRI
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:hasSensorModel;
+        rr:objectMap [
+            rr:template "https://w3id.org/stlab/ke/pabake/ld/sensor_model/{SENSOR_MODEL}";
+            rr:termType rr:IRI
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:classifies;
+        rr:objectMap [
+            rr:template "https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary";
+            rr:termType rr:IRI
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate pabake:hasStation;
+        rr:objectMap [
+            rr:parentTriplesMap <#Station>;
+            rr:objectMap [
+                rr:template "https://w3id.org/stlab/ke/pabake/ld/station/{STAT_MODEL}_{STAT_CODE}";
+                rr:termType rr:IRI
+            ]
+        ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate pabake:wmoURI;
+      rr:objectMap [
+          rml:reference "WMO";
+          rr:datatype xsd:anyURI
+      ]
+
+  ].
+
+<#ObservationParameter>
+    rml:logicalSource <#ObservationSchemataCSV>;
+
+    rr:subjectMap [
+  		rr:template "https://w3id.org/stlab/ke/pabake/ld/observation_parameter/{PARAMETER}";
+      rr:class pabake:ObservationParameter
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:reference "DESC_IT";
+        rr:language "it"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:reference "DESC_EN";
+        rr:language "en"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate pabake:wmoURI;
+      rr:objectMap [
+          rml:reference "WMO";
+          rr:datatype xsd:anyURI
+      ]
+    ].
+
+<#UnitOfMeasure>
+    rml:logicalSource <#ObservationSchemataCSV>;
+
+    rr:subjectMap [
+      rr:template "https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/{UNIT_OF_MEASURE}";
+      rr:class pabake:UnitOfMeasure
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:reference "UNIT_OF_MEASURE_DESC_EN";
+        rr:language "en"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label;
+      rr:objectMap [
+        rml:reference "UNIT_OF_MEASURE_DESC_IT";
+        rr:language "it"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate pabake:wmoURI;
+      rr:objectMap [
+        rml:reference "UNIT_OF_MEASURE_WMO";
+        rr:datatype xsd:anyURI
+      ]
+    ].
