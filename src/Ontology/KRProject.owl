@@ -1,0 +1,2439 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://w3id.org/stlab/ke/pabake"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://w3id.org/stlab/ke/pabake">
+    <Prefix name="" IRI="https://w3id.org/stlab/ke/pabake"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FeatureOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeographicalFeature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservationParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservationValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservationsCollection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PositioningSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensorLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensorModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensorType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StationModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StationStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StationType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeInstant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimePeriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimePeriodMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitOfMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Value"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#classifies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consistsOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFeatureOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasObservationValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPeriod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPositioningSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProvider"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensorType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStationModel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStationStructure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStationType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTimePeriodMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnitOfMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inProximityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAtGeometry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFeatureOfInterestOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInGeographicalFeature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInSea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMadeBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isParameterOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOfCollection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPeriodOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPositioningSystemFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSensorTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isStationModelOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isStationStructureOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isStationTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTimePeriodMeasurementUnitOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUnitOfMeasureOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isValueOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#makesObservation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provides"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#beginsAtYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#diameter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ends"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#endsAtYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDataValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDateTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUTCString"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hullType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#imageUri"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mooringType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pdfURI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#positioningSystem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#starts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#stationNetwork"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#timePeriodValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wmoURI"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#GeographicalFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concept"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasValue"/>
+            <Class IRI="#Value"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeatureOfInterest"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeatureOfInterest"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isFeatureOfInterestOf"/>
+            <Class IRI="#Observation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeographicalFeature"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeographicalFeature"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#Object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geometry"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geometry"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#atLatitude"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geometry"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#atLongitude"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Model"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasObservationValue"/>
+            <Class IRI="#ObservationValue"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasParameter"/>
+            <Class IRI="#ObservationParameter"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isMadeBy"/>
+            <Class IRI="#Sensor"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFeatureOfInterest"/>
+            <Class IRI="#FeatureOfInterest"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#atTime"/>
+            <Class IRI="#TimeInstant"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasObservationValue"/>
+            <Class IRI="#ObservationValue"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isMadeBy"/>
+            <Class IRI="#Sensor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isPartOfCollection"/>
+            <Class IRI="#ObservationsCollection"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationParameter"/>
+        <Class IRI="#Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationParameter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasUnitOfMeasure"/>
+            <Class IRI="#UnitOfMeasure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationParameter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isParameterOf"/>
+            <Class IRI="#Observation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationValue"/>
+        <Class IRI="#Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationValue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isValueOf"/>
+            <Class IRI="#Observation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationValue"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnitOfMeasure"/>
+            <Class IRI="#UnitOfMeasure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationsCollection"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#consistsOf"/>
+            <Class IRI="#Observation"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationsCollection"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#consistsOf"/>
+            <Class IRI="#Observation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parameter"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parameter"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#wmoURI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositioningSystem"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositioningSystem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPositioningSystemFor"/>
+            <Class IRI="#StationModel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#provides"/>
+            <Class IRI="#Station"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sea"/>
+        <Class IRI="#GeographicalFeature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#makesObservation"/>
+            <Class IRI="#Observation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPeriod"/>
+            <Class IRI="#TimePeriod"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSensorType"/>
+            <Class IRI="#SensorType"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasStation"/>
+            <Class IRI="#Station"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isClassifiedBy"/>
+            <Class IRI="#SensorLevel"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#wmoURI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorLevel"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorLevel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#classifies"/>
+            <Class IRI="#Sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorModel"/>
+        <Class IRI="#Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorType"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorType"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSensorTypeOf"/>
+            <Class IRI="#Sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasProvider"/>
+            <Class IRI="#Provider"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasStationModel"/>
+            <Class IRI="#StationModel"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProvider"/>
+            <Class IRI="#Provider"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasStationModel"/>
+            <Class IRI="#StationModel"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasStationStructure"/>
+            <Class IRI="#StationStructure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasStationType"/>
+            <Class IRI="#StationType"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isInSea"/>
+            <Class IRI="#Sea"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#stationNetwork"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#status"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationModel"/>
+        <Class IRI="#Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationModel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPositioningSystem"/>
+            <Class IRI="#PositioningSystem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationModel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isStationModelOf"/>
+            <Class IRI="#Station"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationModel"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hullType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationModel"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#imageUri"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationModel"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#mooringType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationModel"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#pdfURI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationModel"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#beginsAtYear"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationModel"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#diameter"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationModel"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#endsAtYear"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationStructure"/>
+        <Class IRI="#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationStructure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isStationStructureOf"/>
+            <Class IRI="#Station"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationType"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StationType"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isStationTypeOf"/>
+            <Class IRI="#Station"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Structure"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInstant"/>
+        <Class IRI="#TimeInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInstant"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasDateTime"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInstant"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasUTCString"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInterval"/>
+        <Class IRI="#TimeEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInterval"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#ends"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInterval"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#starts"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimePeriod"/>
+        <Class IRI="#TimeEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimePeriod"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPeriodOf"/>
+            <Class IRI="#Sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimePeriod"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasTimePeriodMeasurementUnit"/>
+            <Class IRI="#TimePeriodMeasurementUnit"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimePeriod"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#timePeriodValue"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimePeriodMeasurementUnit"/>
+        <Class IRI="#UnitOfMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimePeriodMeasurementUnit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isTimePeriodMeasurementUnitOf"/>
+            <Class IRI="#TimePeriod"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitOfMeasure"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitOfMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isUnitOfMeasureOf"/>
+            <Class IRI="#ObservationParameter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitOfMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isUnitOfMeasureOf"/>
+            <Class IRI="#ObservationValue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Value"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isValueOf"/>
+            <Class IRI="#Concept"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Value"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasDataValue"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Value"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasDataValue"/>
+            <Datatype abbreviatedIRI="owl:real"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#City"/>
+        <Class IRI="#Sea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FeatureOfInterest"/>
+        <Class IRI="#Sensor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FeatureOfInterest"/>
+        <Class IRI="#Station"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FeatureOfInterest"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GeographicalFeature"/>
+        <Class IRI="#Geometry"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Model"/>
+        <Class IRI="#Parameter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Model"/>
+        <Class IRI="#Structure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Model"/>
+        <Class IRI="#Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Model"/>
+        <Class IRI="#UnitOfMeasure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Parameter"/>
+        <Class IRI="#SensorLevel"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Parameter"/>
+        <Class IRI="#Structure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Parameter"/>
+        <Class IRI="#Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Parameter"/>
+        <Class IRI="#UnitOfMeasure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#Station"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SensorLevel"/>
+        <Class IRI="#Structure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SensorLevel"/>
+        <Class IRI="#Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SensorLevel"/>
+        <Class IRI="#UnitOfMeasure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SensorModel"/>
+        <Class IRI="#StationModel"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SensorType"/>
+        <Class IRI="#StationType"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Station"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Structure"/>
+        <Class IRI="#Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Structure"/>
+        <Class IRI="#UnitOfMeasure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TimeInterval"/>
+        <Class IRI="#TimePeriod"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Type"/>
+        <Class IRI="#UnitOfMeasure"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasObservationValue"/>
+        <ObjectProperty IRI="#hasValue"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPeriod"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSensorType"/>
+        <ObjectProperty IRI="#hasType"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStationType"/>
+        <ObjectProperty IRI="#hasType"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTimePeriodMeasurementUnit"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inProximityOf"/>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAtGeometry"/>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInGeographicalFeature"/>
+        <ObjectProperty IRI="#isLocatedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInSea"/>
+        <ObjectProperty IRI="#isInGeographicalFeature"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSensorTypeOf"/>
+        <ObjectProperty IRI="#isTypeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isStationTypeOf"/>
+        <ObjectProperty IRI="#isTypeOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#classifies"/>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#consistsOf"/>
+        <ObjectProperty IRI="#isPartOfCollection"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#isInGeographicalFeature"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFeatureOfInterest"/>
+        <ObjectProperty IRI="#isFeatureOfInterestOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasObservationValue"/>
+        <ObjectProperty IRI="#isValueOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasParameter"/>
+        <ObjectProperty IRI="#isParameterOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPeriod"/>
+        <ObjectProperty IRI="#isPeriodOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPositioningSystem"/>
+        <ObjectProperty IRI="#isPositioningSystemFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasProvider"/>
+        <ObjectProperty IRI="#provides"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSensor"/>
+        <ObjectProperty IRI="#hasStation"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSensorType"/>
+        <ObjectProperty IRI="#isSensorTypeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasStationModel"/>
+        <ObjectProperty IRI="#isStationModelOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasStationStructure"/>
+        <ObjectProperty IRI="#isStationStructureOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasStationType"/>
+        <ObjectProperty IRI="#isStationTypeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTimePeriodMeasurementUnit"/>
+        <ObjectProperty IRI="#isTimePeriodMeasurementUnitOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasType"/>
+        <ObjectProperty IRI="#isTypeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasUnitOfMeasure"/>
+        <ObjectProperty IRI="#isUnitOfMeasureOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasValue"/>
+        <ObjectProperty IRI="#isValueOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMadeBy"/>
+        <ObjectProperty IRI="#makesObservation"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasPeriod"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atTime"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atTime"/>
+        <Class IRI="#ObservationsCollection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#classifies"/>
+        <Class IRI="#SensorLevel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consistsOf"/>
+        <Class IRI="#ObservationsCollection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#GeographicalFeature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFeatureOfInterest"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasObservationValue"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParameter"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPeriod"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPositioningSystem"/>
+        <Class IRI="#StationModel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProvider"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensor"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensorType"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStation"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStationModel"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStationStructure"/>
+        <Class IRI="#StationModel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStationType"/>
+        <Class IRI="#StationModel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTimePeriodMeasurementUnit"/>
+        <Class IRI="#TimePeriod"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnitOfMeasure"/>
+        <Class IRI="#ObservationValue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnitOfMeasure"/>
+        <Class IRI="#Parameter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasValue"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inProximityOf"/>
+        <Class IRI="#FeatureOfInterest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inProximityOf"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAtGeometry"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFeatureOfInterestOf"/>
+        <Class IRI="#FeatureOfInterest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInGeographicalFeature"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInSea"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMadeBy"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isParameterOf"/>
+        <Class IRI="#ObservationParameter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOfCollection"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPeriodOf"/>
+        <Class IRI="#TimePeriod"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPositioningSystemFor"/>
+        <Class IRI="#PositioningSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSensorTypeOf"/>
+        <Class IRI="#SensorType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isStationModelOf"/>
+        <Class IRI="#StationModel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isStationStructureOf"/>
+        <Class IRI="#StationStructure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isStationTypeOf"/>
+        <Class IRI="#StationType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTimePeriodMeasurementUnitOf"/>
+        <Class IRI="#TimePeriodMeasurementUnit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTypeOf"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUnitOfMeasureOf"/>
+        <Class IRI="#UnitOfMeasure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isValueOf"/>
+        <Class IRI="#ObservationValue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#makesObservation"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="#Provider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atTime"/>
+        <Class IRI="#TimeInstant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#classifies"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consistsOf"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFeatureOfInterest"/>
+        <Class IRI="#FeatureOfInterest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasObservationValue"/>
+        <Class IRI="#ObservationValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParameter"/>
+        <Class IRI="#Parameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPeriod"/>
+        <Class IRI="#TimePeriod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPositioningSystem"/>
+        <Class IRI="#PositioningSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProvider"/>
+        <Class IRI="#Provider"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensor"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensorType"/>
+        <Class IRI="#SensorType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStation"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStationModel"/>
+        <Class IRI="#StationModel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStationStructure"/>
+        <Class IRI="#StationStructure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStationType"/>
+        <Class IRI="#StationType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTimePeriodMeasurementUnit"/>
+        <Class IRI="#TimePeriodMeasurementUnit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUnitOfMeasure"/>
+        <Class IRI="#UnitOfMeasure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasValue"/>
+        <Class IRI="#Value"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAtGeometry"/>
+        <Class IRI="#Geometry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isClassifiedBy"/>
+        <Class IRI="#SensorLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFeatureOfInterestOf"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInGeographicalFeature"/>
+        <Class IRI="#GeographicalFeature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInSea"/>
+        <Class IRI="#Sea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMadeBy"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isParameterOf"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOfCollection"/>
+        <Class IRI="#ObservationsCollection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPeriodOf"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPositioningSystemFor"/>
+        <Class IRI="#StationModel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSensorTypeOf"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isStationModelOf"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isStationStructureOf"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isStationTypeOf"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTimePeriodMeasurementUnitOf"/>
+        <Class IRI="#TimePeriod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTypeOf"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUnitOfMeasureOf"/>
+        <Class IRI="#ObservationParameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUnitOfMeasureOf"/>
+        <Class IRI="#ObservationValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isValueOf"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#makesObservation"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="#Station"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#diameter"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#imageUri"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#positioningSystem"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#timePeriodValue"/>
+        <DataProperty IRI="#hasDataValue"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atLatitude"/>
+        <Class IRI="#Geometry"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atLongitude"/>
+        <Class IRI="#Geometry"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#beginsAtYear"/>
+        <Class IRI="#StationModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#diameter"/>
+        <Class IRI="#StationModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ends"/>
+        <Class IRI="#TimeInterval"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#endsAtYear"/>
+        <Class IRI="#StationModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDataValue"/>
+        <Class IRI="#Value"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDateTime"/>
+        <Class IRI="#TimeInstant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUTCString"/>
+        <Class IRI="#TimeInstant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hullType"/>
+        <Class IRI="#StationModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#imageUri"/>
+        <Class IRI="#StationModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mooringType"/>
+        <Class IRI="#StationModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pdfURI"/>
+        <Class IRI="#StationModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#positioningSystem"/>
+        <Class IRI="#StationModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#starts"/>
+        <Class IRI="#TimeInterval"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#stationNetwork"/>
+        <Class IRI="#Station"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#status"/>
+        <Class IRI="#Station"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#timePeriodValue"/>
+        <Class IRI="#TimePeriod"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wmoURI"/>
+        <Class IRI="#Parameter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wmoURI"/>
+        <Class IRI="#Sensor"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#atLatitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#atLongitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#beginsAtYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#diameter"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ends"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#endsAtYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDataValue"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDataValue"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDataValue"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDateTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUTCString"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hullType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#imageUri"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mooringType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pdfURI"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#positioningSystem"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#starts"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#stationNetwork"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#timePeriodValue"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wmoURI"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="en">City as geogaphic location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="it">Città</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="en">City</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">Abstract or concrete concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="it">Concetto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Entity</IRI>
+        <Literal xml:lang="en">Organization or business that has its own separate legal and financial existence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Entity</IRI>
+        <Literal xml:lang="en">Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Entity</IRI>
+        <Literal xml:lang="it">Entità</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Event</IRI>
+        <Literal xml:lang="en">Event happening in a spatial and temporal location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Event</IRI>
+        <Literal xml:lang="en">Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Event</IRI>
+        <Literal xml:lang="it">Evento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FeatureOfInterest</IRI>
+        <Literal xml:lang="en">Aspect or characteristic that is under consideration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FeatureOfInterest</IRI>
+        <Literal xml:lang="it">Caratteristica d&apos;interesse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FeatureOfInterest</IRI>
+        <Literal xml:lang="en">Feature of Interest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GeographicalFeature</IRI>
+        <Literal xml:lang="en">Place as geographic location that can contains concrete entities or objects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GeographicalFeature</IRI>
+        <Literal xml:lang="en">Geographical feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GeographicalFeature</IRI>
+        <Literal xml:lang="it">Locazione geografica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Geometry</IRI>
+        <Literal xml:lang="en">Geometry as couple of spatial coordinates that indicates a precise position in space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geometry</IRI>
+        <Literal xml:lang="it">Geometria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geometry</IRI>
+        <Literal xml:lang="en">Geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal xml:lang="en">Identifier of a location in space or time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Location</IRI>
+        <Literal xml:lang="en">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Location</IRI>
+        <Literal xml:lang="it">Luogo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Model</IRI>
+        <Literal xml:lang="en">Model as descriptor of objects with predefined common characteristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Model</IRI>
+        <Literal xml:lang="en">Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Model</IRI>
+        <Literal xml:lang="it">Modello</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Object</IRI>
+        <Literal xml:lang="it">Classe che raccoglie gli oggetti concreti e tangibili</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Object</IRI>
+        <Literal xml:lang="en">Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Object</IRI>
+        <Literal xml:lang="it">Oggetto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="en">Observation of an event of interest, which implies some parameters with measurable value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="en">Observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="it">Osservazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ObservationParameter</IRI>
+        <Literal xml:lang="en">Parameter relative to the measurement of a single observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ObservationParameter</IRI>
+        <Literal xml:lang="en">Observation parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ObservationParameter</IRI>
+        <Literal xml:lang="it">Parametro di un&apos;osservazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ObservationValue</IRI>
+        <Literal xml:lang="en">Value associated to an observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ObservationValue</IRI>
+        <Literal xml:lang="en">Observation value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ObservationValue</IRI>
+        <Literal xml:lang="it">Valore dell&apos;osservazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ObservationsCollection</IRI>
+        <Literal xml:lang="it">Collezione di osservazioni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ObservationsCollection</IRI>
+        <Literal xml:lang="en">Observations collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parameter</IRI>
+        <Literal xml:lang="en">Parameter used in a measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Parameter</IRI>
+        <Literal xml:lang="en">Parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Parameter</IRI>
+        <Literal xml:lang="it">Parametro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PositioningSystem</IRI>
+        <Literal xml:lang="en">System defining the geographical position of an object or an entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PositioningSystem</IRI>
+        <Literal xml:lang="en">Positioning System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PositioningSystem</IRI>
+        <Literal xml:lang="it">Sistema di posizionamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Provider</IRI>
+        <Literal xml:lang="en">Entity that provides, produce an object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Provider</IRI>
+        <Literal xml:lang="it">Fornitore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Provider</IRI>
+        <Literal xml:lang="en">Provider</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sea</IRI>
+        <Literal xml:lang="en">Sea as geographic location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sea</IRI>
+        <Literal xml:lang="it">Mare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sea</IRI>
+        <Literal xml:lang="en">Sea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sensor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Sensore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sensor</IRI>
+        <Literal xml:lang="en">Sensor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sensor</IRI>
+        <Literal xml:lang="it">Sensore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SensorLevel</IRI>
+        <Literal xml:lang="en">States if the sensor is primary or not</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SensorLevel</IRI>
+        <Literal xml:lang="it">Livello del sensore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SensorLevel</IRI>
+        <Literal xml:lang="en">Sensor Level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SensorModel</IRI>
+        <Literal xml:lang="en">Set of sensors corresponding to precise characteistics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SensorModel</IRI>
+        <Literal xml:lang="it">Modello di sensore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SensorModel</IRI>
+        <Literal xml:lang="en">Sensor Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SensorType</IRI>
+        <Literal xml:lang="en">Type referred to a Sensor object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SensorType</IRI>
+        <Literal xml:lang="en">Sensor Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SensorType</IRI>
+        <Literal xml:lang="it">Tipo di sensore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Station</IRI>
+        <Literal xml:lang="en">Station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Station</IRI>
+        <Literal xml:lang="it">Stazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StationModel</IRI>
+        <Literal xml:lang="en">Model typology of a given station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StationModel</IRI>
+        <Literal xml:lang="it">Modello di stazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StationModel</IRI>
+        <Literal xml:lang="en">Station Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StationStructure</IRI>
+        <Literal xml:lang="en">Structure describing the construction of a station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StationStructure</IRI>
+        <Literal xml:lang="en">Station Structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StationStructure</IRI>
+        <Literal xml:lang="it">Struttura della stazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StationType</IRI>
+        <Literal xml:lang="en">Type referred to a Station object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StationType</IRI>
+        <Literal xml:lang="en">Station Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StationType</IRI>
+        <Literal xml:lang="it">Tipo di stazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Structure</IRI>
+        <Literal xml:lang="en">The arrangement of and relations between the parts or elements of something complex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Structure</IRI>
+        <Literal xml:lang="en">Structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Structure</IRI>
+        <Literal xml:lang="it">Struttura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System</IRI>
+        <Literal xml:lang="it">Sistema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System</IRI>
+        <Literal xml:lang="en">System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TimeEntity</IRI>
+        <Literal xml:lang="en">Representation of a temporal instance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimeEntity</IRI>
+        <Literal xml:lang="it">Entità temporale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimeEntity</IRI>
+        <Literal xml:lang="en">Time Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TimeInstant</IRI>
+        <Literal xml:lang="en">Instant that identifies a single point on a temporal line, a time interval with start equals to end and duration zero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimeInstant</IRI>
+        <Literal xml:lang="it">Istante temporale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimeInstant</IRI>
+        <Literal xml:lang="en">Time instant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TimeInterval</IRI>
+        <Literal xml:lang="en">Segment of the temporal line with a start, an end and a duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimeInterval</IRI>
+        <Literal xml:lang="it">Intervallo temporale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimeInterval</IRI>
+        <Literal xml:lang="en">Time interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TimePeriod</IRI>
+        <Literal xml:lang="en">Duration not localized in a temporal line</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimePeriod</IRI>
+        <Literal xml:lang="it">Periodo temporale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimePeriod</IRI>
+        <Literal xml:lang="en">Time periodo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TimePeriodMeasurementUnit</IRI>
+        <Literal xml:lang="en">Mesaurement unit for a time period entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimePeriodMeasurementUnit</IRI>
+        <Literal xml:lang="en">Time period measurement unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimePeriodMeasurementUnit</IRI>
+        <Literal xml:lang="it">Unità di misura del periodo temporale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Type</IRI>
+        <Literal xml:lang="en">A category of items having common characteristics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Type</IRI>
+        <Literal xml:lang="it">Tipo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Type</IRI>
+        <Literal xml:lang="en">Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UnitOfMeasure</IRI>
+        <Literal xml:lang="en">Unit of Measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UnitOfMeasure</IRI>
+        <Literal xml:lang="it">Unità di misura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Value</IRI>
+        <Literal xml:lang="it">Valore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Value</IRI>
+        <Literal xml:lang="en">Value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#atLatitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Latitude in which a station is located</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#atLongitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Longitude at which a station is located</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#atTime</IRI>
+        <Literal xml:lang="en">Temporal indication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#beginsAtYear</IRI>
+        <Literal xml:lang="en">Year of beginning of a process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#classifies</IRI>
+        <Literal xml:lang="en">Relationship between a classifier and an entity which can be classified using it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#consistsOf</IRI>
+        <Literal xml:lang="en">Relationship between an observation group and all its single observations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#contains</IRI>
+        <Literal xml:lang="en">Relationship between a geographic location and the objects contained in it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#diameter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Diameter of the station model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ends</IRI>
+        <Literal xml:lang="en">Indicates a datetime relative to the end of an entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#endsAtYear</IRI>
+        <Literal xml:lang="en">Year of the end of the process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDataValue</IRI>
+        <Literal xml:lang="en">Indicates an actual value referred to an entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasDateTime</IRI>
+        <Literal xml:lang="en">Date as date time format related to an entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFeatureOfInterest</IRI>
+        <Literal xml:lang="en">Relationship between an observation and the area where the measurements are collected</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasObservationValue</IRI>
+        <Literal xml:lang="en">Relationship between an observation and the value registered</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasParameter</IRI>
+        <Literal xml:lang="en">Relationship between an observation and its parameters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPeriod</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a sensor and its period of measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPositioningSystem</IRI>
+        <Literal xml:lang="en">Relationship between an entity and its positioning system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasProvider</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a station and its provider</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSensor</IRI>
+        <Literal xml:lang="en">Relationship between a station and a sensor mounted on it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSensorType</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a sensor and its type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasStation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a sensor and the station that hosts it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasStationModel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a station and its model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasStationStructure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a station and its structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasStationType</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a station and its type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTimePeriodMeasurementUnit</IRI>
+        <Literal xml:lang="en">Relationship between a time period and its measurement unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasType</IRI>
+        <Literal xml:lang="en">Relationship between an object and its characteristic type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUTCString</IRI>
+        <Literal xml:lang="en">UTC String related to an entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasUnitOfMeasure</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Relationship between a measure and its unit of measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasValue</IRI>
+        <Literal xml:lang="en">Relationship between an entity and a value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hullType</IRI>
+        <Literal xml:lang="en">Hull type value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#imageUri</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">URI with picture of the station model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#inProximityOf</IRI>
+        <Literal xml:lang="en">Relationship indicating the nearness to a location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isAtGeometry</IRI>
+        <Literal xml:lang="en">Relationship indicating the position of an obect/entity in a precise geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isClassifiedBy</IRI>
+        <Literal xml:lang="en">Relationship between an entity and a classifier of it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isFeatureOfInterestOf</IRI>
+        <Literal xml:lang="en">Relationship between a feature of interest and the instances that it interests</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isInGeographicalFeature</IRI>
+        <Literal xml:lang="en">Relationship indicating the presence of an object/entity in a geographical location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isInSea</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Represents the relation between a station and the sea that contains it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isLocatedIn</IRI>
+        <Literal xml:lang="en">Relationship between an object or entity and its spatial location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isMadeBy</IRI>
+        <Literal xml:lang="en">Representing the relationship between a single observation and the sensor that performed the measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isParameterOf</IRI>
+        <Literal xml:lang="en">Relationship between a parameter and all values, measurements that use that parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isPartOfCollection</IRI>
+        <Literal xml:lang="en">Relationship between an observation collection and all the observations that compose it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isPeriodOf</IRI>
+        <Literal xml:lang="en">Relationship between a temporal period and the sensor with that period</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isPositioningSystemFor</IRI>
+        <Literal xml:lang="en">Relationship between a positioning system and the entity which uses it as positioning system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isSensorTypeOf</IRI>
+        <Literal xml:lang="en">Relationship between a sensor type and the sensors of that type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isStationModelOf</IRI>
+        <Literal xml:lang="en">Relationship between a station model and the stations corresponding to that model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isStationStructureOf</IRI>
+        <Literal xml:lang="en">Relationship between a station structure and the stations with that structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isStationTypeOf</IRI>
+        <Literal xml:lang="en">Relationship between a station type and the stations of that type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isTimePeriodMeasurementUnitOf</IRI>
+        <Literal xml:lang="en">Relationship linking a time period mesurement unit and the time periods for whose it&apos;s the unit of measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isTypeOf</IRI>
+        <Literal xml:lang="en">Relationship between a type and the objects that have that type as characteristic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isUnitOfMeasureOf</IRI>
+        <Literal xml:lang="en">Relationship that indicates to which parameter or values a unit of measure is linked to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isValueOf</IRI>
+        <Literal xml:lang="en">Relationship between a value and the instance to which that value is referred</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#makesObservation</IRI>
+        <Literal xml:lang="en">Relationship between a sensor and the observations that it collects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mooringType</IRI>
+        <Literal xml:lang="en">Mooring type of the entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#pdfURI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">URI of the pdf of the station model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#positioningSystem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Positioning system relative to a determined station model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#provides</IRI>
+        <Literal xml:lang="en">Relationship between a provider and the objects or items he provides</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#starts</IRI>
+        <Literal xml:lang="en">Indicates a datetime of the beginning of an entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#stationNetwork</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Network containing the station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Indicates if the station is active or not</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#timePeriodValue</IRI>
+        <Literal xml:lang="en">Value of the time period instance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#wmoURI</IRI>
+        <Literal xml:lang="en">Wmo URI referred to the selected instance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

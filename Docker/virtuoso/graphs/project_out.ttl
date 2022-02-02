@@ -1,0 +1,1909 @@
+@prefix ns1: <https://w3id.org/stlab/ke/pabake#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_011015> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/43929_9828> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_027042> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/44967_12633>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/45333_12517> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_042002> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/43832_13710> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_058032> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/42000_11777>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/42245_11554> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_059018> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40867_12950> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_069058> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/42407_14537> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_072030> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40975_17378> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_078040> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39453_15918> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_081012> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/37518_12533> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_082053> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/38258_13333> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_087015> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/37440_15147> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40549_8107> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_091085> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40617_9892> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_092009> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39110_9454>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/39115_9405> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_101010> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39024_17220> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_011015> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/43929_9828> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_027042> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/44967_12633>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/45333_12517> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_042002> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/43832_13710> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_058032> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/42000_11777>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/42245_11554> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_059018> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40867_12950> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_069058> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/42407_14537> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_072030> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40975_17378> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_078040> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39453_15918> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_081012> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/37518_12533> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_082053> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/38258_13333> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_087015> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/37440_15147> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_090003> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40549_8107> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_091085> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40617_9892> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_092009> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39110_9454>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/39115_9405> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/hm_101010> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39024_17220> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_011015> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/43929_9828> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_027042> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/44967_12633>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/45333_12517> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_042002> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/43832_13710> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_058032> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/42000_11777>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/42245_11554> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_059018> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40867_12950> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_069058> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/42407_14537> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_072030> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40975_17378> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_078040> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39453_15918> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_081012> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/37518_12533> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_082053> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/38258_13333> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_087015> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/37440_15147> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_090003> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40549_8107> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_091085> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40617_9892> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_092009> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39110_9454>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/39115_9405> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tm_101010> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39024_17220> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_011015> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/43929_9828> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_027042> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/44967_12633>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/45333_12517> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_042002> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/43832_13710> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_058032> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/42000_11777>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/42245_11554> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_059018> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40867_12950> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_069058> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/42407_14537> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_072030> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40975_17378> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_078040> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39453_15918> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_081012> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/37518_12533> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_082053> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/38258_13333> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_087015> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/37440_15147> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_090003> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40549_8107> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_091085> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/40617_9892> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_092009> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39110_9454>,
+        <https://w3id.org/stlab/ke/pabake/ld/geometry/39115_9405> .
+
+<https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/tp_101010> a ns1:FeatureOfInterest ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/geometry/39024_17220> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> a ns1:ObservationParameter ;
+    rdfs:label "Mean direction from which waves are coming"@en,
+        "Direzione media da cui provengono le onde"@it ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/b/22/086"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_parameter/hm0> a ns1:ObservationParameter ;
+    rdfs:label "Significant wave height  "@en,
+        "Altezza d'onda significativa"@it ;
+    ns1:wmoURI "http://codes.wmo.int/grib2/codeflag/4.2/10-0-5"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_parameter/tm> a ns1:ObservationParameter ;
+    rdfs:label "Average wave period "@en,
+        "Periodo d'onda medio"@it ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/b/22/074"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_parameter/tp> a ns1:ObservationParameter ;
+    rdfs:label "Spectral peak wave period"@en,
+        "Periodo dell'onda di picco spettrale"@it ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/b/22/071"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_parameter/utc> a ns1:ObservationParameter ;
+    rdfs:label "Coordinated Universal Time"@en,
+        "Tempo Coordinato Universale"@it ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-04-059/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100207_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100207> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100207_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100207> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100207_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100207> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100207_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100207> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100207_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100207> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100207_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100207> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100207_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100207> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100207_89_stabilizedwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_120> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100207> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100207_89_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100207> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100208_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100208> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100208_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100208> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100208_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100208> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100208_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100208> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100208_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100208> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100208_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100208> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100208_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100208> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100208_89_stabilizedwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_120> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100208> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100208_89_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100208> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100209> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100209> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100209> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100209> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100209> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100209> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100209_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100209> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100210_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100210> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100210_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100210> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100210_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100210> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100210_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100210> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100210_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100210> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100210_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100210> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100210_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100210> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100210_89_stabilizedwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_120> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100210> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100210_89_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100210> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100211_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100211> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100211_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100211> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100211_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100211> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100211_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100211> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100211_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100211> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100211_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100211> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100211_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100211> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100211_89_stabilizedwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_40> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89b_6100211> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100211_89_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89b_6100211> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100212_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100212> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100212_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100212> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100212_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100212> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100212_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100212> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100212_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100212> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100212_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100212> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100212_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100212> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100213> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100213> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100213> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100213> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100213> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100213> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100213> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_89_stabilizedwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_120> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100213> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_89_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100213> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100214_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100214> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100214_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100214> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100214_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100214> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100214_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100214> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100214_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100214> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100214_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100214> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100214_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100214> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100214_89_stabilizedwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_120> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100214> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100214_89_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100214> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100215_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100215> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100215_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100215> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100215_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100215> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100215_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100215> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100215_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100215> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100215_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100215> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100215_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100215> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100215_89_stabilizedwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_120> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100215> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100215_89_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100215> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100216_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100216> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100216_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100216> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100216_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100216> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100216_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100216> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100216_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100216> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100216_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100216> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100216_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100216> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100217> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100217> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100217> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100217> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100217> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100217> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100217> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_89_stabilizedwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_120> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100217> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100217_89_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100217> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100218_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100218> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100218_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100218> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100218_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100218> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100218_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100218> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100218_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100218> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100218_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100218> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100218_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100218> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100218_89_stabilizedwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_40> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89b_6100218> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100218_89_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89b_6100218> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100219_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100219> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100219_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100219> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100219_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100219> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100219_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100219> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100219_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100219> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100219_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100219> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100219_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100219> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100219_89_stabilizedwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_120> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100219> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100219_89_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/89_6100219> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100220_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100220> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100220_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100220> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100220_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100220> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100220_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100220> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100220_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100220> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100220_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100220> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100220_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100220> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100221_02_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100221> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100221_02_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/02_6100221> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100221_09_anemometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100221> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-169/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100221_09_barometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100221> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-095/3"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100221_09_hygrometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100221> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-097/30"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100221_09_solidwavegauge> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100221> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-046/1"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor/6100221_09_thermometer> a ns1:Sensor ;
+    ns1:classifies <https://w3id.org/stlab/ke/pabake/ld/sensor_level/primary> ;
+    ns1:hasPeriod <https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> ;
+    ns1:hasSensorModel <https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip>,
+        <https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> ;
+    ns1:hasSensorType <https://w3id.org/stlab/ke/pabake/ld/sensor_type/thermometer> ;
+    ns1:hasStation <https://w3id.org/stlab/ke/pabake/ld/station/09_6100221> ;
+    ns1:wmoURI "http://codes.wmo.int/bufr4/codeflag/0-02-096/1"^^xsd:anyURI,
+        "http://codes.wmo.int/bufr4/codeflag/0-02-096/4"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_type/airthermometer> a ns1:SensorType ;
+    rdfs:label "Air Thermometer"@en,
+        "Termometro per aria"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_type/hydrometer> a ns1:SensorType ;
+    rdfs:label "Hydrometer"@en,
+        "Idrometro"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_type/multiparameterprobe> a ns1:SensorType ;
+    rdfs:label "Multi Parameter Probe"@en,
+        "Sonda multi parametro"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_type/waterthermometer> a ns1:SensorType ;
+    rdfs:label "Water Thermometer"@en,
+        "Termometro per acqua"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/degree> a ns1:UnitOfMeasure ;
+    rdfs:label "Degree"@en,
+        "Grado"@it ;
+    ns1:wmoURI "http://codes.wmo.int/common/unit/degrees_true"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/metre> a ns1:UnitOfMeasure ;
+    rdfs:label "Metre"@en,
+        "Metro"@it ;
+    ns1:wmoURI "http://codes.wmo.int/common/unit/m"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/unit_of_measure/second> a ns1:UnitOfMeasure ;
+    rdfs:label "Second"@en,
+        "Secondo"@it ;
+    ns1:wmoURI "http://codes.wmo.int/common/unit/s"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_period_measurement_unit/h> a ns1:TimePeriodMeasurementUnit ;
+    rdfs:label "Hour"@en .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/027042> a ns1:City ;
+    rdfs:label "Venezia"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/058032> a ns1:City ;
+    rdfs:label "Civitavecchia"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/082053> a ns1:City ;
+    rdfs:label "Palermo"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/091085> a ns1:City ;
+    rdfs:label "Siniscola"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/092009> a ns1:City ;
+    rdfs:label "Cagliari"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/positioning_system/argos> a ns1:PositioningSystem ;
+    rdfs:label "ARGOS"@en .
+
+<https://w3id.org/stlab/ke/pabake/ld/positioning_system/gps> a ns1:PositioningSystem ;
+    rdfs:label "GPS"@en .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_40> a ns1:SensorModel ;
+    ns1:hasValue "Datawell - Hippy-40"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100207> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/37440_15147> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/087015> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/ionian_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100208> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/37518_12533> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/081012> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/strait_of_sicily> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100209> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/38258_13333> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/082053> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100210> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/39024_17220> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/101010> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/ionian_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100211> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/39453_15918> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/078040> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100212> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40617_9892> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/091085> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100213> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40549_8107> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/090003> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/western_mediterranean_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100214> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40867_12950> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/059018> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100215> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40975_17378> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/072030> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100216> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/42000_11777> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/058032> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100217> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/42407_14537> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/069058> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100218> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/43832_13710> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/042002> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100219> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/43929_9828> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/011015> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/ligurian_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100220> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/44967_12633> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/027042> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/02_6100221> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/02> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/39115_9405> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/092009> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "2"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/89_6100207> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/89> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/37440_15147> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/087015> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/ionian_sea> ;
+    ns1:stationNetwork "89"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/89_6100208> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/89> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/37518_12533> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/081012> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/strait_of_sicily> ;
+    ns1:stationNetwork "89"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/89_6100210> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/89> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/39024_17220> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/101010> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/ionian_sea> ;
+    ns1:stationNetwork "89"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/89_6100213> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/89> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40549_8107> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/090003> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/western_mediterranean_sea> ;
+    ns1:stationNetwork "89"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/89_6100214> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/89> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40867_12950> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/059018> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "89"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/89_6100215> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/89> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40975_17378> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/072030> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "89"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/89_6100217> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/89> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/42407_14537> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/069058> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "89"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/89_6100219> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/89> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/43929_9828> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/011015> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/ligurian_sea> ;
+    ns1:stationNetwork "89"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/89b_6100211> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/89b> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/39453_15918> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/078040> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "89"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/89b_6100218> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/89b> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/43832_13710> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/042002> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "89"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station_model/89b> a ns1:StationModel ;
+    rdfs:label "Waverider MKII"@en ;
+    ns1:beginsAtYear "1989"^^xsd:int ;
+    ns1:diameter "0.9"^^xsd:float ;
+    ns1:endsAtYear "2001"^^xsd:int ;
+    ns1:hasPositioningSystem <https://w3id.org/stlab/ke/pabake/ld/positioning_system/argos> ;
+    ns1:hasStationStructure <https://w3id.org/stlab/ke/pabake/ld/station_structure/stainless_steel> ;
+    ns1:hasStationType <https://w3id.org/stlab/ke/pabake/ld/station_type/fixed_buoy> ;
+    ns1:hullType "Directional wave-rider"^^xsd:string ;
+    ns1:imageURI "http://dati.isprambiente.it/ron/Waverider.JPG"^^xsd:anyURI ;
+    ns1:manufacturer "Datawell"^^xsd:string ;
+    ns1:mooringType "Float inverse catenary"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station_structure/polyethylene> a ns1:StationStructure ;
+    rdfs:label "Polyethylene"@en,
+        "Polietilene"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/station_structure/stainless_steel> a ns1:StationStructure ;
+    rdfs:label "Stainless steel"@en,
+        "Acciaio inossidabile"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/011015> a ns1:City ;
+    rdfs:label "La Spezia"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/042002> a ns1:City ;
+    rdfs:label "Ancona"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/059018> a ns1:City ;
+    rdfs:label "Ponza"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/069058> a ns1:City ;
+    rdfs:label "Ortona"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/072030> a ns1:City ;
+    rdfs:label "Monopoli"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/078040> a ns1:City ;
+    rdfs:label "Cetraro"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/081012> a ns1:City ;
+    rdfs:label "Mazara del Vallo"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/087015> a ns1:City ;
+    rdfs:label "Catania"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/090003> a ns1:City ;
+    rdfs:label "Alghero"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/city/101010> a ns1:City ;
+    rdfs:label "Crotone"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sea/ligurian_sea> a ns1:Sea ;
+    rdfs:label "Ligurian Sea"@en,
+        "Mar Ligure"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sea/strait_of_sicily> a ns1:Sea ;
+    rdfs:label "Strait of Sicily"@en,
+        "Stretto di Sicilia"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sea/western_mediterranean_sea> a ns1:Sea ;
+    rdfs:label "Western Mediterranean Sea"@en,
+        "Mare Mediterraneo occidentale"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/37440_15147> a ns1:Geometry ;
+    ns1:atLatitude "37.44"^^xsd:float ;
+    ns1:atLongitude "15.147"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/37518_12533> a ns1:Geometry ;
+    ns1:atLatitude "37.518"^^xsd:float ;
+    ns1:atLongitude "12.533"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/38258_13333> a ns1:Geometry ;
+    ns1:atLatitude "38.258"^^xsd:float ;
+    ns1:atLongitude "13.333"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/39024_17220> a ns1:Geometry ;
+    ns1:atLatitude "39.024"^^xsd:float ;
+    ns1:atLongitude "17.22"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/39110_9454> a ns1:Geometry ;
+    ns1:atLatitude "39.11"^^xsd:float ;
+    ns1:atLongitude "9.454"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/39115_9405> a ns1:Geometry ;
+    ns1:atLatitude "39.115"^^xsd:float ;
+    ns1:atLongitude "9.405"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/39453_15918> a ns1:Geometry ;
+    ns1:atLatitude "39.453"^^xsd:float ;
+    ns1:atLongitude "15.918"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/40549_8107> a ns1:Geometry ;
+    ns1:atLatitude "40.549"^^xsd:float ;
+    ns1:atLongitude "8.107"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/40617_9892> a ns1:Geometry ;
+    ns1:atLatitude "40.617"^^xsd:float ;
+    ns1:atLongitude "9.892"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/40867_12950> a ns1:Geometry ;
+    ns1:atLatitude "40.867"^^xsd:float ;
+    ns1:atLongitude "12.95"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/40975_17378> a ns1:Geometry ;
+    ns1:atLatitude "40.975"^^xsd:float ;
+    ns1:atLongitude "17.378"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/42000_11777> a ns1:Geometry ;
+    ns1:atLatitude "42.0"^^xsd:float ;
+    ns1:atLongitude "11.777"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/42245_11554> a ns1:Geometry ;
+    ns1:atLatitude "42.245"^^xsd:float ;
+    ns1:atLongitude "11.554"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/42407_14537> a ns1:Geometry ;
+    ns1:atLatitude "42.407"^^xsd:float ;
+    ns1:atLongitude "14.537"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/43832_13710> a ns1:Geometry ;
+    ns1:atLatitude "43.832"^^xsd:float ;
+    ns1:atLongitude "13.71"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/43929_9828> a ns1:Geometry ;
+    ns1:atLatitude "43.929"^^xsd:float ;
+    ns1:atLongitude "9.828"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/44967_12633> a ns1:Geometry ;
+    ns1:atLatitude "44.967"^^xsd:float ;
+    ns1:atLongitude "12.633"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/geometry/45333_12517> a ns1:Geometry ;
+    ns1:atLatitude "45.333"^^xsd:float ;
+    ns1:atLongitude "12.517"^^xsd:float .
+
+<https://w3id.org/stlab/ke/pabake/ld/station_type/fixed_buoy> a ns1:StationType ;
+    rdfs:label "Fixed Buoy"@en,
+        "Boa Fissa"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100207> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/37440_15147> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/087015> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/ionian_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100208> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/37518_12533> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/081012> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/strait_of_sicily> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100209> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/38258_13333> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/082053> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100210> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/39024_17220> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/101010> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/ionian_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100211> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/39453_15918> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/078040> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100212> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40617_9892> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/091085> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100213> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40549_8107> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/090003> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/western_mediterranean_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100214> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40867_12950> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/059018> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100215> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/40975_17378> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/072030> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100216> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/42245_11554> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/058032> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100217> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/42407_14537> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/069058> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100218> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/43832_13710> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/042002> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100219> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/43929_9828> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/011015> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/ligurian_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100220> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/45333_12517> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/027042> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station/09_6100221> a ns1:Station ;
+    ns1:hasProvider <https://w3id.org/stlab/ke/pabake/ld/provider/wmo> ;
+    ns1:hasStationModel <https://w3id.org/stlab/ke/pabake/ld/station_model/09> ;
+    ns1:isAtGeometry <https://w3id.org/stlab/ke/pabake/geometry/39110_9454> ;
+    ns1:isInProximityOf <https://w3id.org/stlab/ke/pabake/ld/city/092009> ;
+    ns1:isInSea <https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> ;
+    ns1:stationNetwork "9"^^xsd:int ;
+    ns1:status "ceased"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/sea/ionian_sea> a ns1:Sea ;
+    rdfs:label "Ionian sea"@en,
+        "Mare Ionio"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_model/datawell_hippy_120> a ns1:SensorModel ;
+    ns1:hasValue "Datawell - Hippy-120"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/station_model/89> a ns1:StationModel ;
+    rdfs:label "Wavec"@en ;
+    ns1:beginsAtYear "1989"^^xsd:int ;
+    ns1:diameter "2.5"^^xsd:float ;
+    ns1:endsAtYear "2001"^^xsd:int ;
+    ns1:hasPositioningSystem <https://w3id.org/stlab/ke/pabake/ld/positioning_system/argos> ;
+    ns1:hasStationStructure <https://w3id.org/stlab/ke/pabake/ld/station_structure/polyethylene> ;
+    ns1:hasStationType <https://w3id.org/stlab/ke/pabake/ld/station_type/fixed_buoy> ;
+    ns1:hullType "Directional pitch-roll"^^xsd:string ;
+    ns1:imageURI "http://dati.isprambiente.it/ron/Wavec.JPG"^^xsd:anyURI ;
+    ns1:manufacturer "Datawell"^^xsd:string ;
+    ns1:mooringType "Float inverse catenary"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_type/stabilizedwavegauge> a ns1:SensorType ;
+    rdfs:label "Stabilized platform sensor wave gauge"@en,
+        "Indicatore d'onda del sensore della piattaforma stabilizzato"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sea/adriatic_sea> a ns1:Sea ;
+    rdfs:label "Adriatic Sea"@en,
+        "Mare Adriatico"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sea/tyrrhenian_sea> a ns1:Sea ;
+    rdfs:label "Tyrrhenian Sea"@en,
+        "Mare Tirreno"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_model/gill_winsonic> a ns1:SensorModel ;
+    ns1:hasValue "Gill WinSonic"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_model/vaisala_ptb110> a ns1:SensorModel ;
+    ns1:hasValue "Vaisala PTB110"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_type/anemometer> a ns1:SensorType ;
+    rdfs:label "Anemometer"@en,
+        "Anemometro"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_type/barometer> a ns1:SensorType ;
+    rdfs:label "Barometer"@en,
+        "Barometro"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_type/hygrometer> a ns1:SensorType ;
+    rdfs:label "Hygrometer"@en,
+        "Igrometro"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/station_model/02> a ns1:StationModel ;
+    rdfs:label "Triaxys"@en ;
+    ns1:beginsAtYear "2002"^^xsd:int ;
+    ns1:diameter "0.9"^^xsd:float ;
+    ns1:endsAtYear "2008"^^xsd:int ;
+    ns1:hasPositioningSystem <https://w3id.org/stlab/ke/pabake/ld/positioning_system/gps> ;
+    ns1:hasStationStructure <https://w3id.org/stlab/ke/pabake/ld/station_structure/stainless_steel> ;
+    ns1:hasStationType <https://w3id.org/stlab/ke/pabake/ld/station_type/fixed_buoy> ;
+    ns1:hullType "Directional wave-rider"^^xsd:string ;
+    ns1:imageURI "http://dati.isprambiente.it/ron/Triaxys.JPG"^^xsd:anyURI ;
+    ns1:manufacturer "Axys"^^xsd:string ;
+    ns1:mooringType "Float inverse catenary"^^xsd:string ;
+    ns1:pdfURI "http://dati.isprambiente.it/ron/Triaxys-Buoy.pdf"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/station_model/09> a ns1:StationModel ;
+    rdfs:label "Watchkeeper"@en ;
+    ns1:beginsAtYear "2009"^^xsd:int ;
+    ns1:diameter "1.7"^^xsd:float ;
+    ns1:endsAtYear "2014"^^xsd:int ;
+    ns1:hasPositioningSystem <https://w3id.org/stlab/ke/pabake/ld/positioning_system/gps> ;
+    ns1:hasStationStructure <https://w3id.org/stlab/ke/pabake/ld/station_structure/polyethylene> ;
+    ns1:hasStationType <https://w3id.org/stlab/ke/pabake/ld/station_type/fixed_buoy> ;
+    ns1:hullType "Directional wave-rider"^^xsd:string ;
+    ns1:imageURI "http://dati.isprambiente.it/ron/Watchkeeper.JPG"^^xsd:anyURI ;
+    ns1:manufacturer "Axys"^^xsd:string ;
+    ns1:mooringType "Float inverse catenary"^^xsd:string ;
+    ns1:pdfURI "http://dati.isprambiente.it/ron/WatchKeeper-Buoy.pdf"^^xsd:anyURI .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_model/axys_tryaxis_sensor_unit> a ns1:SensorModel ;
+    ns1:hasValue "Axys - Tryaxis sensor unit"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_model/rotronic_hygroclip> a ns1:SensorModel ;
+    ns1:hasValue "Rotronic HygroClip"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_type/solidwavegauge> a ns1:SensorType ;
+    rdfs:label "Solid-state sensor wave gauge"@en,
+        "Indicatore d'onda del sensore a stato solido"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/provider/wmo> a ns1:Provider ;
+    rdfs:label "World Meteorological Organization"@en,
+        "Organizzazione Meteorologica Mondiale"@it .
+
+<https://w3id.org/stlab/ke/pabake/ld/sensor_model/ysi_44018> a ns1:SensorModel ;
+    ns1:hasValue "YSI 44018"^^xsd:string .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_period/05_h> a ns1:TimePeriod ;
+    ns1:hasTimePeriodMeasurementUnit <https://w3id.org/stlab/ke/pabake/ld/time_period_measurement_unit/h> ;
+    ns1:timePeriodValue "0.5"^^xsd:float .
+
