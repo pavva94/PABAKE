@@ -1,0 +1,875 @@
+@prefix ns1: <https://w3id.org/stlab/ke/pabake#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_00:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_00:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/301_1> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_00:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_00:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/302_3> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_01:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_01:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/298_5> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_02:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_02:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/299_1> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_02:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_02:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/300_5> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_03:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_03:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/298_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_03:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_03:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/297_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_04:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_04:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/295_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_05:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_05:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/297_2> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_05:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_05:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/300_1> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_06:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_06:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/297_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_07:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_07:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/297_1> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_10:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_10:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/294_2> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_10:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_10:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/295_2> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_11:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_11:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/296_1> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_11:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_11:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/294_5> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_12:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_12:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/295_2> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_12:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_12:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/296_6> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_13:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_13:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/298_9> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_13:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_13:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/301_3> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_14:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_14:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/298_5> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_15:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_15:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/295_1> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_17:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_17:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/298_3> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_18:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_18:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/303> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_18:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_18:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/297_3> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_19:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_19:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/298_5> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_19:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_19:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/297> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_20:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_20:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/296_9> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_20:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_20:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/295_5> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_21:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_21:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/297_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_21:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_21:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/295_5> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_22:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_22:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/294_2> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_22:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_22:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/296_6> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_23:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_23:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/296_8> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_01_23:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_01_23:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/296_3> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_00:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_00:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/296_6> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_00:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_00:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/299_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_01:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_01:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/298_1> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_01:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_01:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/298_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_02:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_02:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/299_2> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_02:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_02:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/301_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_03:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_03:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/296_2> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_04:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_04:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/295_8> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_04:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_04:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/294_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_05:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_05:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/297_8> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_05:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_05:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/296_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_06:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_06:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/297_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_06:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_06:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/295_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_07:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_07:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/299_1> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_08:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_08:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/298_5> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_02_17:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_02_17:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/300_5> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_03_17:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_03_17:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/308_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_03_20:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_03_20:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/310> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_03_21:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_03_21:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/306_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_03_22:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_03_22:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/306_6> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_03_23:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_03_23:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/303> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_15:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_15:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/48_2> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_16:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_16:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/337_9> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_16:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_16:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/342_2> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_17:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_17:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/356> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_17:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_17:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/346_9> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_18:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_18:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/343_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_18:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_18:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/339_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_19:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_19:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/342_9> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_19:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_19:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/344_3> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_20:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_20:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/345_8> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_20:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_20:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/349_3> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_21:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_21:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/344_9> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_21:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_21:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/348_3> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_22:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_22:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/349_9> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_22:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_22:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/343_1> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_23:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_23:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/349_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_14_23:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_14_23:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/352_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_00:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_00:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/351_3> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_00:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_00:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/347_9> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_01:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_01:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/348_8> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_01:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_01:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/347_8> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_02:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_02:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/350_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_02:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_02:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/350_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_03:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_03:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/358_2> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_03:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_03:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/348_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_04:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_04:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/347_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_04:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_04:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/350_9> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_05:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_05:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/341_3> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_05:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_05:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/349_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_06:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_06:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/349_1> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_06:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_06:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/344_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_07:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_07:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/350_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_07:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_07:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/350> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_08:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_08:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/353_6> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_08:30:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_08:30:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/1_7> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation/090003_2005_01_15_09:00:00_dir> a ns1:Observation ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2005_01_15_09:00:00> ;
+    ns1:hasFeatureOfInterest <https://w3id.org/stlab/ke/pabake/ld/feature_of_interest/dir_090003> ;
+    ns1:hasObservationValue <https://w3id.org/stlab/ke/pabake/ld/observation_value/278_4> ;
+    ns1:hasParameter <https://w3id.org/stlab/ke/pabake/ld/observation_parameter/dir> ;
+    ns1:isMadeBy <https://w3id.org/stlab/ke/pabake/ld/sensor/6100213_02_solidwavegauge> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/1_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 1.7e+00 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/278_4> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.784e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/294_4> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.944e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/294_5> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.945e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/295_1> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.951e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/295_8> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.958e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/296_1> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.961e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/296_2> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.962e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/296_3> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.963e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/296_4> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.964e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/296_8> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.968e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/296_9> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.969e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/297> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.97e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/297_1> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.971e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/297_2> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.972e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/297_3> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.973e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/297_8> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.978e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/298_1> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.981e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/298_3> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.983e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/298_9> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.989e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/299_2> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.992e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/299_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.997e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/300_1> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.001e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/301_1> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.011e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/301_3> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.013e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/301_4> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.014e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/302_3> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.023e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/306_6> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.066e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/306_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.067e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/308_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.087e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/310> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.1e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/337_9> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.379e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/339_4> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.394e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/341_3> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.413e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/342_2> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.422e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/342_9> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.429e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/343_1> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.431e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/343_4> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.434e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/344_3> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.443e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/344_4> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.444e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/344_9> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.449e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/345_8> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.458e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/346_9> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.469e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/347_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.477e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/347_8> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.478e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/347_9> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.479e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/348_3> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.483e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/348_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.487e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/348_8> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.488e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/349_1> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.491e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/349_3> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.493e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/349_4> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.494e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/349_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.497e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/349_9> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.499e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/350> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.5e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/350_4> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.504e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/350_9> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.509e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/351_3> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.513e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/352_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.527e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/353_6> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.536e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/356> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.56e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/358_2> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.582e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/48_2> a ns1:ObservationValue ;
+    ns1:hasDataValue 4.82e+01 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/294_2> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.942e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/295_2> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.952e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/295_4> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.954e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/295_5> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.955e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/298_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.987e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/299_1> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.991e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/300_5> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.005e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/303> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.03e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/350_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 3.507e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/296_6> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.966e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/297_7> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.977e+02 .
+
+<https://w3id.org/stlab/ke/pabake/ld/observation_value/298_5> a ns1:ObservationValue ;
+    ns1:hasDataValue 2.985e+02 .
+
