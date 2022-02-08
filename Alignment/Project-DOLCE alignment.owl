@@ -1,0 +1,119 @@
+Prefix(:=<http://www.semanticweb.org/fede2/ontologies/2022/1/untitled-ontology-26#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/fede2/ontologies/2022/1/untitled-ontology-26>
+Import(<http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl>)
+Import(<https://w3id.org/stlab/ke/pabake>)
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.w3.org/ns/ssn/deployedOnPlatform> (<http://www.w3.org/ns/ssn/deployedOnPlatform>)
+
+SubObjectPropertyOf(<http://www.w3.org/ns/ssn/deployedOnPlatform> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#specific-constant-dependent>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#atTime> (<https://w3id.org/stlab/ke/pabake#atTime>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#atTime> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatio-temporally-present-at>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#hasPeriod> (<https://w3id.org/stlab/ke/pabake#hasPeriod>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#hasPeriod> <https://w3id.org/stlab/ke/pabake#hasProvider>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#hasPositioningSystem> (<https://w3id.org/stlab/ke/pabake#hasPositioningSystem>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#hasPositioningSystem> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#specific-constant-dependent>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#hasProvider> (<https://w3id.org/stlab/ke/pabake#hasProvider>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#hasProvider> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#generically-dependent-on>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#hasSensor> (<https://w3id.org/stlab/ke/pabake#hasSensor>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#hasSensor> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#specific-constant-dependent>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#hasStation> (<https://w3id.org/stlab/ke/pabake#hasStation>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#hasStation> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#specific-constant-dependent>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#hasStationModel> (<https://w3id.org/stlab/ke/pabake#hasStationModel>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#hasStationModel> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#has-quality>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#hasStationStructure> (<https://w3id.org/stlab/ke/pabake#hasStationStructure>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#hasStationStructure> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#has-quality>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#hasType> (<https://w3id.org/stlab/ke/pabake#hasType>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#hasType> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#has-quality>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#hasUnitOfMeasure> (<https://w3id.org/stlab/ke/pabake#hasUnitOfMeasure>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#hasUnitOfMeasure> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#has-quality>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#isLocatedIn> (<https://w3id.org/stlab/ke/pabake#isLocatedIn>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#isLocatedIn> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-location>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#isPartOfCollection> (<https://w3id.org/stlab/ke/pabake#isPartOfCollection>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#isPartOfCollection> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#atomic-part>)
+
+# Object Property: <https://w3id.org/stlab/ke/pabake#isTypeOf> (<https://w3id.org/stlab/ke/pabake#isTypeOf>)
+
+SubObjectPropertyOf(<https://w3id.org/stlab/ke/pabake#isTypeOf> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#has-quality>)
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-endurant> (<http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-endurant>)
+
+EquivalentClasses(<http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-endurant> <https://w3id.org/stlab/ke/pabake#Object>)
+
+# Class: <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality> (<http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality>)
+
+EquivalentClasses(<http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality> <https://w3id.org/stlab/ke/pabake#TimeEntity>)
+
+# Class: <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#time-interval> (<http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#time-interval>)
+
+EquivalentClasses(<http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#time-interval> <https://w3id.org/stlab/ke/pabake#TimeInterval>)
+
+# Class: <http://www.w3.org/ns/sosa/FeatureOfInterest> (<http://www.w3.org/ns/sosa/FeatureOfInterest>)
+
+SubClassOf(<http://www.w3.org/ns/sosa/FeatureOfInterest> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-endurant>)
+
+# Class: <https://w3id.org/stlab/ke/pabake#Agent> (Agent)
+
+SubClassOf(<https://w3id.org/stlab/ke/pabake#Agent> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-endurant>)
+
+# Class: <https://w3id.org/stlab/ke/pabake#Concept> (Concetto)
+
+SubClassOf(<https://w3id.org/stlab/ke/pabake#Concept> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#non-physical-endurant>)
+
+# Class: <https://w3id.org/stlab/ke/pabake#FeatureOfInterest> (Caratteristica d'interesse)
+
+SubClassOf(<https://w3id.org/stlab/ke/pabake#FeatureOfInterest> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#feature>)
+
+# Class: <https://w3id.org/stlab/ke/pabake#Location> (Luogo)
+
+SubClassOf(<https://w3id.org/stlab/ke/pabake#Location> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#spatial-location_q>)
+
+# Class: <https://w3id.org/stlab/ke/pabake#Situation> (Situation)
+
+SubClassOf(<https://w3id.org/stlab/ke/pabake#Situation> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#accomplishment>)
+
+# Class: <https://w3id.org/stlab/ke/pabake#TimeInterval> (Intervallo temporale)
+
+SubClassOf(<https://w3id.org/stlab/ke/pabake#TimeInterval> <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-location_q>)
+
+
+)

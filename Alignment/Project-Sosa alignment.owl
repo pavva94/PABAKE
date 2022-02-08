@@ -1,0 +1,53 @@
+Prefix(:=<http://www.semanticweb.org/fede2/ontologies/2022/1/untitled-ontology-27#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/fede2/ontologies/2022/1/untitled-ontology-27>
+Import(<file:/C:/Users/fede2/OneDrive/Desktop/Alignment/sosa.ttl>)
+Import(<https://w3id.org/stlab/ke/pabake>)
+
+Declaration(Class(<http://qudt.org/1.1/schema/qudt#QuantityValue>))
+Declaration(Class(<http://www.w3.org/2006/time#Instant>))
+Declaration(Class(<http://www.w3.org/2006/time#Interval>))
+Declaration(Class(<http://www.w3.org/ns/sosa/FeatureOfInterest>))
+Declaration(Class(<http://www.w3.org/ns/sosa/ObservableProperty>))
+Declaration(Class(<http://www.w3.org/ns/sosa/Observation>))
+Declaration(Class(<http://www.w3.org/ns/sosa/Sensor>))
+############################
+#   Classes
+############################
+
+# Class: <http://qudt.org/1.1/schema/qudt#QuantityValue> (<http://qudt.org/1.1/schema/qudt#QuantityValue>)
+
+EquivalentClasses(<http://qudt.org/1.1/schema/qudt#QuantityValue> <https://w3id.org/stlab/ke/pabake#Value>)
+
+# Class: <http://www.w3.org/2006/time#Instant> (<http://www.w3.org/2006/time#Instant>)
+
+EquivalentClasses(<http://www.w3.org/2006/time#Instant> <https://w3id.org/stlab/ke/pabake#TimeInstant>)
+
+# Class: <http://www.w3.org/2006/time#Interval> (<http://www.w3.org/2006/time#Interval>)
+
+EquivalentClasses(<http://www.w3.org/2006/time#Interval> <https://w3id.org/stlab/ke/pabake#TimeInterval>)
+
+# Class: <http://www.w3.org/ns/sosa/FeatureOfInterest> (<http://www.w3.org/ns/sosa/FeatureOfInterest>)
+
+EquivalentClasses(<http://www.w3.org/ns/sosa/FeatureOfInterest> <https://w3id.org/stlab/ke/pabake#FeatureOfInterest>)
+
+# Class: <http://www.w3.org/ns/sosa/ObservableProperty> (<http://www.w3.org/ns/sosa/ObservableProperty>)
+
+EquivalentClasses(<http://www.w3.org/ns/sosa/ObservableProperty> <https://w3id.org/stlab/ke/pabake#ObservationParameter>)
+
+# Class: <http://www.w3.org/ns/sosa/Observation> (<http://www.w3.org/ns/sosa/Observation>)
+
+EquivalentClasses(<http://www.w3.org/ns/sosa/Observation> <https://w3id.org/stlab/ke/pabake#Observation>)
+
+# Class: <http://www.w3.org/ns/sosa/Sensor> (<http://www.w3.org/ns/sosa/Sensor>)
+
+EquivalentClasses(<http://www.w3.org/ns/sosa/Sensor> <https://w3id.org/stlab/ke/pabake#Sensor>)
+
+
+)
