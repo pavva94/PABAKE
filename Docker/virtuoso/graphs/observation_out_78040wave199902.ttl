@@ -1,0 +1,86 @@
+@prefix ns1: <https://w3id.org/stlab/ke/pabake#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/078040_1999_02_28_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/078040_1999_02_28_03:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_03:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_03:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_03:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_03:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_03:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/078040_1999_02_28_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/078040_1999_02_28_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/078040_1999_02_28_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/078040_1999_02_28_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/078040_1999_02_28_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/078040_1999_02_28_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/078040_1999_02_28_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "1999-02-28 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_03:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "1999-02-28 03:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "1999-02-28 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "1999-02-28 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "1999-02-28 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "1999-02-28 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "1999-02-28 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/1999_02_28_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "1999-02-28 21:00:00"^^xsd:dateTime .
+

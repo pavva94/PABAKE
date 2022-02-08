@@ -1,0 +1,26 @@
+@prefix ns1: <https://w3id.org/stlab/ke/pabake#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/059018_2007_05_09_06:30:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2007_05_09_06:30:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/059018_2007_05_09_06:30:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/059018_2007_05_09_06:30:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/059018_2007_05_09_06:30:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/059018_2007_05_09_06:30:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/059018_2007_05_09_07:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2007_05_09_07:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/059018_2007_05_09_07:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/059018_2007_05_09_07:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/059018_2007_05_09_07:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/059018_2007_05_09_07:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2007_05_09_06:30:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2007-05-09 06:30:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2007_05_09_07:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2007-05-09 07:00:00"^^xsd:dateTime .
+

@@ -1,0 +1,906 @@
+@prefix ns1: <https://w3id.org/stlab/ke/pabake#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_01_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_01_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_01_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_01_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_01_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_01_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_04_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_04_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_04_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_04_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_04_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_04_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_04_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_04_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_04_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_04_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_04_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_04_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_07_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_07_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_07_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_07_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_07_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_07_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_08_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_08_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_08_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_08_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_08_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_08_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_08_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_08_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_08_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_08_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_08_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_08_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_09_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_09_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_09_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_09_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_09_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_09_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_09_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_10_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_10_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_10_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_10_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_10_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_10_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_11_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_11_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_11_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_11_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_11_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_11_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_11_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_11_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_11_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_11_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_11_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_13_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_13_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_13_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_13_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_13_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_13_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_13_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_13_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_13_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_13_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_13_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_13_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_15_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_15_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_15_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_15_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_15_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_15_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_23_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_23_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_23_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_23_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_23_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_23_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_23_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_23_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_23_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_23_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_23_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_24_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_24_03:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_03:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_03:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_03:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_03:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_03:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_24_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_24_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_24_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_24_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_24_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_24_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_24_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_25_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_25_03:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_03:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_03:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_03:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_03:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_03:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_25_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_25_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_25_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_25_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_25_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_25_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_25_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_26_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_26_03:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_03:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_03:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_03:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_03:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_03:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_26_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_26_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_26_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_26_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_26_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_26_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_26_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_27_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_27_03:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_03:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_03:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_03:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_03:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_03:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_27_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_27_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_27_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_27_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_27_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_27_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_27_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_28_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_28_03:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_03:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_03:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_03:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_03:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_03:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_28_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_28_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_28_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_28_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_28_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_28_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_28_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_29_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_29_03:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_03:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_03:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_03:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_03:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_03:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_29_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_29_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_29_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_29_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_29_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_29_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_29_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_30_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_30_03:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_03:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_03:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_03:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_03:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_03:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_30_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_30_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_30_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_30_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_30_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_30_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_30_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_31_00:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_00:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_00:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_00:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_00:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_00:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_31_03:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_03:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_03:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_03:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_03:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_03:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_31_06:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_06:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_06:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_06:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_06:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_06:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_31_09:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_09:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_09:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_09:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_09:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_09:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_31_12:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_12:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_12:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_12:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_12:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_12:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_31_15:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_15:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_15:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_15:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_15:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_15:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_31_18:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_18:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_18:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_18:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_18:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_18:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/observationcollection/069058_2000_03_31_21:00:00> a ns1:ObservationCollection ;
+    ns1:atTime <https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_21:00:00> ;
+    ns1:consistOf <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_21:00:00_dir>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_21:00:00_hm0>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_21:00:00_tm>,
+        <https://w3id.org/stlab/ke/pabake/ld/observation/069058_2000_03_31_21:00:00_tp> .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_01_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-01 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_04_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-04 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_04_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-04 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_07_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-07 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_08_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-08 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_08_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-08 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-09 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-09 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-09 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-09 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-09 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_09_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-09 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_10_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-10 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_11_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-11 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_11_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-11 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_11_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-11 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_11_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-11 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_11_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-11 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_13_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-13 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_13_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-13 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_15_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-15 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_23_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-23 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_23_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-23 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_23_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-23 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_23_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-23 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_23_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-23 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-24 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_03:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-24 03:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-24 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-24 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-24 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-24 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-24 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_24_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-24 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-25 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_03:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-25 03:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-25 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-25 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-25 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-25 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-25 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_25_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-25 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-26 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_03:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-26 03:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-26 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-26 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-26 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-26 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-26 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_26_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-26 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-27 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_03:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-27 03:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-27 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-27 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-27 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-27 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-27 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_27_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-27 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-28 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_03:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-28 03:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-28 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-28 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-28 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-28 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-28 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_28_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-28 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-29 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_03:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-29 03:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-29 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-29 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-29 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-29 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-29 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_29_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-29 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-30 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_03:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-30 03:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-30 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-30 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-30 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-30 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-30 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_30_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-30 21:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_00:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-31 00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_03:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-31 03:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_06:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-31 06:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_09:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-31 09:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_12:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-31 12:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_15:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-31 15:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_18:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-31 18:00:00"^^xsd:dateTime .
+
+<https://w3id.org/stlab/ke/pabake/ld/time_instant/2000_03_31_21:00:00> a ns1:TimeInstant ;
+    ns1:hasDateTime "2000-03-31 21:00:00"^^xsd:dateTime .
+
