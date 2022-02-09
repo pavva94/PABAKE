@@ -12,17 +12,26 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">The PABAKE ontology models the Linked Data by the Italian Institute for Environmental Protection and Research (ISPRA). OWL engineering by Federico Battistella and Alessandro Pavesi</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Created by Federico Battistella and Alessandro Pavesi</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
     <Declaration>
         <Class IRI="#City"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Concept"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Entity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Event"/>
     </Declaration>
     <Declaration>
         <Class IRI="#FeatureOfInterest"/>
@@ -77,6 +86,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#SensorType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Station"/>
@@ -360,7 +372,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Observation"/>
-        <Class IRI="#Event"/>
+        <Class IRI="#Situation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Observation"/>
@@ -492,7 +504,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Provider"/>
-        <Class IRI="#Entity"/>
+        <Class IRI="#Agent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Provider"/>
@@ -861,6 +873,10 @@
         <Class IRI="#Sea"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Situation"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#FeatureOfInterest"/>
         <Class IRI="#Sensor"/>
     </DisjointClasses>
@@ -879,6 +895,10 @@
     <DisjointClasses>
         <Class IRI="#Model"/>
         <Class IRI="#Parameter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Model"/>
+        <Class IRI="#SensorLevel"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Model"/>
@@ -956,20 +976,9 @@
         <Class IRI="#Type"/>
         <Class IRI="#UnitOfMeasure"/>
     </DisjointClasses>
-    <ClassAssertion>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-        <AnonymousIndividual nodeID="_:genid2147483648"/>
-    </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasObservationValue"/>
         <ObjectProperty IRI="#hasValue"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasPeriod"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasSensorType"/>
@@ -978,10 +987,6 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasStationType"/>
         <ObjectProperty IRI="#hasType"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasTimePeriodMeasurementUnit"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#inProximityOf"/>
@@ -1427,18 +1432,6 @@
         <Class IRI="#Station"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
-        <DataProperty IRI="#diameter"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#imageUri"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#positioningSystem"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#timePeriodValue"/>
         <DataProperty IRI="#hasDataValue"/>
     </SubDataPropertyOf>
@@ -1608,6 +1601,21 @@
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agent</IRI>
+        <Literal xml:lang="en">Entity acting in providing or creating objects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agent</IRI>
+        <Literal xml:lang="en">Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agent</IRI>
+        <Literal xml:lang="it">Agente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#City</IRI>
         <Literal xml:lang="en">City as geogaphic location</Literal>
     </AnnotationAssertion>
@@ -1635,36 +1643,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Concept</IRI>
         <Literal xml:lang="it">Concetto</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Entity</IRI>
-        <Literal xml:lang="en">Organization or business that has its own separate legal and financial existence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Entity</IRI>
-        <Literal xml:lang="en">Entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Entity</IRI>
-        <Literal xml:lang="it">Entità</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Event</IRI>
-        <Literal xml:lang="en">Event happening in a spatial and temporal location</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Event</IRI>
-        <Literal xml:lang="en">Event</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Event</IRI>
-        <Literal xml:lang="it">Evento</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1930,6 +1908,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SensorType</IRI>
         <Literal xml:lang="it">Tipo di sensore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Situation</IRI>
+        <Literal xml:lang="en">Situation happening in a spatial and temporal location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Situation</IRI>
+        <Literal xml:lang="en">Situation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Situation</IRI>
+        <Literal xml:lang="it">Situazione</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2428,8 +2421,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AnonymousIndividual nodeID="_:genid2147483649"/>
-        <AnonymousIndividual nodeID="_:genid2147483650"/>
+        <AnonymousIndividual nodeID="_:genid2147483719"/>
+        <AnonymousIndividual nodeID="_:genid2147483720"/>
     </AnnotationAssertion>
 </Ontology>
 
